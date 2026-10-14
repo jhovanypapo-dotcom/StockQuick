@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StockQuick - Tablero Visual y Presentación de Proyecto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: '#114B3E',
+            'forest-dark': '#0c352c',
+            'forest-light': '#186453',
+            'soft-gray': '#F8F9FA',
+            'dark-text': '#1F2937',
+            'body-text': '#212529',
+            'border-subtle': '#E5E7EB',
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Space Grotesk"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #F8F9FA;
+      color: #212529;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .grid-pattern {
+      background-image: radial-gradient(#114B3E 0.75px, transparent 0.75px);
+      background-size: 24px 24px;
+      opacity: 0.12;
+    }
+    .pin-shadow {
+      box-shadow: 0 14px 35px -8px rgba(17, 75, 62, 0.10), 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+    }
+    .sticker-badge {
+      transform: rotate(-1.5deg);
+    }
+  </style>
+</head>
+<body class="min-h-screen relative overflow-x-hidden p-6 md:p-10 selection:bg-forest selection:text-white">
+
+  <!-- Background decorative canvas elements -->
+  <div class="fixed inset-0 grid-pattern pointer-events-none"></div>
+
+  <div class="max-w-7xl mx-auto relative z-10 space-y-8">
+
+    <!-- Top Canvas Toolbar / Moodboard Header (Canva style) -->
+    <header class="bg-white rounded-2xl border border-gray-200/80 pin-shadow p-5 flex flex-wrap items-center justify-between gap-4">
+      <div class="flex items-center gap-4">
+        <div class="h-12 w-12 rounded-xl bg-forest/10 p-2 flex items-center justify-center border border-forest/20">
+          <img src="https://lh3.googleusercontent.com/aida/AEtjO1VKYnlnvTYmC0QDA-cwkULRD9C4szKdrKbVGk8VDtOaikO_ZVZ4Sy8FT-d6EUeIQJJCKxYcaRqRxl0ZHoLjwgtP98I66Q2I825vUVDK_4ZVD5gnXjt8sQ2_P21UUEk9rBzMtn1lA-o7zaloBKMq2RfXDrulCy_PpVsfGviVvDQQh3iYXv_z7-M37nWiUK7ZgNqPcof7fnRxVqH0O4jLTQIvfPuXeWUTbIrBdaBmZCRodlwv6e-mf0CWgMg" alt="Logo StockQuick" class="h-full w-full object-contain">
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="text-xs uppercase tracking-widest font-bold text-forest bg-forest/10 px-2.5 py-0.5 rounded-full">Pitch Deck • Moodboard 01</span>
+            <span class="text-xs text-gray-400 font-medium">| V1.0 Definición</span>
+          </div>
+          <h1 class="text-2xl md:text-3xl font-extrabold text-forest tracking-tight font-display">StockQuick</h1>
+        </div>
+      </div>
+
+      <!-- Action items & meta tags -->
+      <div class="flex items-center gap-3">
+        <div class="hidden sm:flex items-center gap-2 bg-soft-gray px-3.5 py-2 rounded-xl border border-gray-200 text-xs font-semibold text-dark-text">
+          <span class="w-2.5 h-2.5 rounded-full bg-forest animate-pulse"></span>
+          Proyecto: Catálogo e Inventario Digital
+        </div>
+        <div class="bg-forest text-white text-xs font-bold px-4 py-2.5 rounded-xl flex items-center gap-2 shadow-sm">
+          <span>🎯 Mini-mercados & Tiendas</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Moodboard Canvas Masonry Layout -->
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+
+      <!-- Column 1: Identidad & Idea Central (Col 1 to 5) -->
+      <div class="md:col-span-5 space-y-6">
+
+        <!-- Card: Idea del Proyecto -->
+        <article class="bg-white rounded-3xl p-7 border border-gray-200/90 pin-shadow relative overflow-hidden transition-all duration-300 hover:translate-y-[-2px]">
+          <div class="absolute top-0 left-0 right-0 h-2 bg-forest"></div>
+          
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-bold text-forest tracking-wider uppercase bg-forest/10 px-3 py-1 rounded-full">1. Concepto & Idea</span>
+            <span class="text-xs font-semibold text-gray-400">#CatálogoDigital</span>
+          </div>
+
+          <h2 class="text-xl font-bold text-dark-text font-display mb-3">¿Cuál es la idea del proyecto?</h2>
+          <p class="text-body-text text-sm leading-relaxed mb-5 text-gray-700">
+            <strong class="text-forest font-bold">StockQuick</strong> es un sistema web de catálogo e inventario digital diseñado para pequeños negocios locales, como tiendas de barrio y mini-mercados.
+          </p>
+
+          <!-- Key impact notes -->
+          <div class="bg-soft-gray border border-gray-200/80 rounded-2xl p-4 space-y-2.5">
+            <div class="flex items-start gap-2.5 text-xs text-dark-text">
+              <span class="text-forest text-base leading-none">✓</span>
+              <span><strong>Registro en tiempo real:</strong> Consulta inmediata de existencias y precios exactos.</span>
+            </div>
+            <div class="flex items-start gap-2.5 text-xs text-dark-text">
+              <span class="text-forest text-base leading-none">✓</span>
+              <span><strong>Cero papel:</strong> Reemplazo total de cuadernos y registros manuales propensos a error.</span>
+            </div>
+            <div class="flex items-start gap-2.5 text-xs text-dark-text">
+              <span class="text-forest text-base leading-none">✓</span>
+              <span><strong>Cobro ágil:</strong> Minimiza errores en el punto de cobro y dinamiza la atención al cliente.</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card: Usuario Principal (Archetype) -->
+        <article class="bg-white rounded-3xl p-7 border border-gray-200/90 pin-shadow relative transition-all duration-300 hover:translate-y-[-2px]">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-bold text-forest tracking-wider uppercase bg-forest/10 px-3 py-1 rounded-full">2. Público Objetivo</span>
+            <span class="text-xs text-gray-400">Target Persona</span>
+          </div>
+
+          <h2 class="text-xl font-bold text-dark-text font-display mb-3">¿Quién usará el proyecto?</h2>
+
+          <div class="flex items-center gap-4 bg-soft-gray p-4 rounded-2xl border border-gray-200 mb-4">
+            <div class="w-14 h-14 rounded-2xl bg-forest flex items-center justify-center text-white text-2xl font-black shrink-0 shadow-md">
+              🏪
+            </div>
+            <div>
+              <h3 class="text-sm font-bold text-dark-text">Pequeños Comerciantes & Administradores</h3>
+              <p class="text-xs text-gray-500 mt-0.5">Tiendas de barrio, bodegas familiares y mini-mercados locales.</p>
+            </div>
+          </div>
+
+          <div class="text-xs text-gray-600 space-y-2">
+            <p class="font-medium text-dark-text">Necesidad clave detectada:</p>
+            <div class="p-3 bg-white rounded-xl border border-dashed border-forest/40 text-forest font-medium italic">
+              "Controlar visualmente los productos en mostrador, evitar dudas en precios frente al cliente y agilizar el despacho diario sin sistemas complejos."
+            </div>
+          </div>
+        </article>
+
+        <!-- Card: Identidad del Logo -->
+        <article class="bg-white rounded-3xl p-7 border border-gray-200/90 pin-shadow relative">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-bold text-forest tracking-wider uppercase bg-forest/10 px-3 py-1 rounded-full">5. Identidad Gráfica</span>
+            <span class="text-xs text-gray-400">Logo & Isotipo</span>
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-center gap-6">
+            <div class="w-36 h-36 rounded-2xl bg-white border-2 border-forest/20 p-3 flex items-center justify-center shrink-0 shadow-sm">
+              <img src="https://lh3.googleusercontent.com/aida/AEtjO1VKYnlnvTYmC0QDA-cwkULRD9C4szKdrKbVGk8VDtOaikO_ZVZ4Sy8FT-d6EUeIQJJCKxYcaRqRxl0ZHoLjwgtP98I66Q2I825vUVDK_4ZVD5gnXjt8sQ2_P21UUEk9rBzMtn1lA-o7zaloBKMq2RfXDrulCy_PpVsfGviVvDQQh3iYXv_z7-M37nWiUK7ZgNqPcof7fnRxVqH0O4jLTQIvfPuXeWUTbIrBdaBmZCRodlwv6e-mf0CWgMg" alt="Logo Isométrico de StockQuick" class="w-full h-full object-contain">
+            </div>
+            <div class="space-y-2">
+              <h3 class="text-base font-bold text-forest font-display">Concepto del Símbolo</h3>
+              <p class="text-xs text-gray-600 leading-relaxed">
+                Ícono minimalista que fusiona una <strong>caja o contenedor isométrico</strong> con una <strong>marca de verificación (chulo)</strong> o destello dinámico en su cara superior.
+              </p>
+              <div class="flex flex-wrap gap-1.5 pt-1">
+                <span class="text-[11px] bg-soft-gray border border-gray-200 px-2 py-0.5 rounded text-dark-text font-medium">📦 Inventario</span>
+                <span class="text-[11px] bg-soft-gray border border-gray-200 px-2 py-0.5 rounded text-dark-text font-medium">⚡ Velocidad</span>
+                <span class="text-[11px] bg-forest text-white px-2 py-0.5 rounded font-bold">✓ Control</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Column 2: Funcionalidades & Paleta de Color (Col 6 to 12) -->
+      <div class="md:col-span-7 space-y-6">
+
+        <!-- Card: Paleta de Colores Oficial (Estricta según documento) -->
+        <article class="bg-white rounded-3xl p-7 border border-gray-200/90 pin-shadow">
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-bold text-forest tracking-wider uppercase bg-forest/10 px-3 py-1 rounded-full">4. Paleta de Color Oficial</span>
+              <span class="text-[11px] font-semibold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">100% Documentada</span>
+            </div>
+            <span class="text-xs text-gray-400">Guía de Estilos</span>
+          </div>
+
+          <h2 class="text-xl font-bold text-dark-text font-display mb-4">Códigos HEX & Aplicación en Sistema</h2>
+
+          <!-- Swatches Grid -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            
+            <!-- Swatch 1: Verde Bosque -->
+            <div class="space-y-2 group">
+              <div class="h-28 rounded-2xl bg-[#114B3E] shadow-inner p-3 flex flex-col justify-between text-white transition-transform group-hover:scale-105">
+                <span class="text-[10px] font-bold tracking-wider uppercase opacity-80">Principal</span>
+                <span class="text-xs font-mono font-bold">#114B3E</span>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-dark-text">Verde Bosque</p>
+                <p class="text-[11px] text-gray-500 leading-tight">Navbar custom y botones principales (btn-custom).</p>
+              </div>
+            </div>
+
+            <!-- Swatch 2: Gris Claro -->
+            <div class="space-y-2 group">
+              <div class="h-28 rounded-2xl bg-[#F8F9FA] border border-gray-300 p-3 flex flex-col justify-between text-dark-text transition-transform group-hover:scale-105">
+                <span class="text-[10px] font-bold tracking-wider uppercase text-gray-500">Superficie</span>
+                <span class="text-xs font-mono font-bold">#F8F9FA</span>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-dark-text">Gris Claro</p>
+                <p class="text-[11px] text-gray-500 leading-tight">Fondo general de la aplicación (bg-light).</p>
+              </div>
+            </div>
+
+            <!-- Swatch 3: Blanco Puro -->
+            <div class="space-y-2 group">
+              <div class="h-28 rounded-2xl bg-[#FFFFFF] border-2 border-gray-200 p-3 flex flex-col justify-between text-dark-text transition-transform group-hover:scale-105">
+                <span class="text-[10px] font-bold tracking-wider uppercase text-gray-400">Contenedor</span>
+                <span class="text-xs font-mono font-bold">#FFFFFF</span>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-dark-text">Blanco</p>
+                <p class="text-[11px] text-gray-500 leading-tight">Tarjetas de producto, héroe y formularios.</p>
+              </div>
+            </div>
+
+            <!-- Swatch 4: Texto Oscuro -->
+            <div class="space-y-2 group">
+              <div class="h-28 rounded-2xl bg-[#1F2937] p-3 flex flex-col justify-between text-white transition-transform group-hover:scale-105">
+                <span class="text-[10px] font-bold tracking-wider uppercase text-gray-300">Tipografía</span>
+                <span class="text-xs font-mono font-bold">#1F2937 / #212529</span>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-dark-text">Texto Oscuro</p>
+                <p class="text-[11px] text-gray-500 leading-tight">Títulos principales, subtítulos y pie de página.</p>
+              </div>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Card: Módulos & Funcionalidades (Canva Bento Style) -->
+        <article class="bg-white rounded-3xl p-7 border border-gray-200/90 pin-shadow space-y-5">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-forest tracking-wider uppercase bg-forest/10 px-3 py-1 rounded-full">3. Funcionalidades del Sistema</span>
+            <span class="text-xs text-gray-400">Página de Inicio & Core</span>
+          </div>
+
+          <h2 class="text-xl font-bold text-dark-text font-display">Módulos de la Página de Inicio</h2>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            
+            <!-- Module 1: Catálogo Interactivo -->
+            <div class="bg-soft-gray p-5 rounded-2xl border border-gray-200 relative group hover:border-forest/50 transition-colors">
+              <div class="w-9 h-9 rounded-xl bg-forest text-white flex items-center justify-center font-bold text-sm mb-3 shadow-sm">
+                🗂️
+              </div>
+              <h3 class="text-sm font-bold text-dark-text mb-1.5 flex items-center justify-between">
+                Catálogo Interactivo
+                <span class="text-[10px] text-forest bg-white px-2 py-0.5 rounded-full border border-gray-200 font-bold">Grid</span>
+              </h3>
+              <p class="text-xs text-gray-600 leading-relaxed mb-3">
+                Organizado en tarjetas visuales de productos con vista clara de precio, imagen y disponibilidad inmediata.
+              </p>
+              <div class="flex items-center gap-1.5 text-[10px] text-gray-500 bg-white p-2 rounded-lg border border-gray-200">
+                <span class="w-2 h-2 rounded-full bg-forest"></span>
+                <span>Visualización limpia en tarjetas (cards)</span>
+              </div>
+            </div>
+
+            <!-- Module 2: Búsqueda y Filtros -->
+            <div class="bg-soft-gray p-5 rounded-2xl border border-gray-200 relative group hover:border-forest/50 transition-colors">
+              <div class="w-9 h-9 rounded-xl bg-forest text-white flex items-center justify-center font-bold text-sm mb-3 shadow-sm">
+                🔍
+              </div>
+              <h3 class="text-sm font-bold text-dark-text mb-1.5 flex items-center justify-between">
+                Búsqueda & Filtros
+                <span class="text-[10px] text-forest bg-white px-2 py-0.5 rounded-full border border-gray-200 font-bold">Tiempo Real</span>
+              </h3>
+              <p class="text-xs text-gray-600 leading-relaxed mb-3">
+                Filtrado por categorías clave y barra de búsqueda predictiva instantánea para despacho acelerado.
+              </p>
+              <div class="flex flex-wrap gap-1">
+                <span class="text-[10px] bg-white border border-gray-200 px-2 py-0.5 rounded-md font-semibold text-forest">Abarrotes</span>
+                <span class="text-[10px] bg-white border border-gray-200 px-2 py-0.5 rounded-md font-semibold text-forest">Bebidas</span>
+                <span class="text-[10px] bg-white border border-gray-200 px-2 py-0.5 rounded-md font-semibold text-forest">Snacks</span>
+              </div>
+            </div>
+
+            <!-- Module 3: Registro de Productos -->
+            <div class="bg-soft-gray p-5 rounded-2xl border border-gray-200 relative group hover:border-forest/50 transition-colors">
+              <div class="w-9 h-9 rounded-xl bg-forest text-white flex items-center justify-center font-bold text-sm mb-3 shadow-sm">
+                📝
+              </div>
+              <h3 class="text-sm font-bold text-dark-text mb-1.5 flex items-center justify-between">
+                Registro de Productos
+                <span class="text-[10px] text-forest bg-white px-2 py-0.5 rounded-full border border-gray-200 font-bold">Form</span>
+              </h3>
+              <p class="text-xs text-gray-600 leading-relaxed mb-3">
+                Formulario intuitivo y rápido para incorporar nueva mercancía sin fricción técnica.
+              </p>
+              <div class="grid grid-cols-2 gap-1.5 text-[10px] text-gray-600">
+                <div class="bg-white p-1.5 rounded border border-gray-200 text-center font-medium">• Nombre</div>
+                <div class="bg-white p-1.5 rounded border border-gray-200 text-center font-medium">• Categoría</div>
+                <div class="bg-white p-1.5 rounded border border-gray-200 text-center font-medium">• Precio ($)</div>
+                <div class="bg-white p-1.5 rounded border border-gray-200 text-center font-medium">• Stock (#)</div>
+              </div>
+            </div>
+
+            <!-- Module 4: Formulario de Contacto & Pedidos -->
+            <div class="bg-soft-gray p-5 rounded-2xl border border-gray-200 relative group hover:border-forest/50 transition-colors">
+              <div class="w-9 h-9 rounded-xl bg-forest text-white flex items-center justify-center font-bold text-sm mb-3 shadow-sm">
+                💬
+              </div>
+              <h3 class="text-sm font-bold text-dark-text mb-1.5 flex items-center justify-between">
+                Atención & Contacto
+                <span class="text-[10px] text-forest bg-white px-2 py-0.5 rounded-full border border-gray-200 font-bold">Módulo</span>
+              </h3>
+              <p class="text-xs text-gray-600 leading-relaxed mb-3">
+                Canal de atención al cliente para canalizar consultas directas, pedidos especiales y soporte local.
+              </p>
+              <div class="bg-white p-2 rounded-lg border border-gray-200 flex items-center justify-between text-[10px]">
+                <span class="font-medium text-dark-text">Recepción de pedidos</span>
+                <span class="text-forest font-bold">Online</span>
+              </div>
+            </div>
+
+          </div>
+        </article>
+
+        <!-- Preview Mockup Banner: Ejemplo de Tarjeta UI en Verde Bosque & Blanco -->
+        <article class="bg-[#114B3E] rounded-3xl p-6 text-white pin-shadow flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div class="space-y-1.5 text-center sm:text-left">
+            <span class="text-[10px] uppercase font-bold tracking-widest text-emerald-200/90">Previsualización de Componentes UI</span>
+            <h4 class="text-lg font-bold font-display">Estilo de Componentes de StockQuick</h4>
+            <p class="text-xs text-emerald-100/80 max-w-md">
+              Botones con clase <code class="bg-emerald-950/60 px-1 py-0.5 rounded text-[11px] font-mono">btn-custom</code>, barras en <code class="bg-emerald-950/60 px-1 py-0.5 rounded text-[11px] font-mono">navbar-custom</code> y tarjetas limpias sobre <code class="bg-emerald-950/60 px-1 py-0.5 rounded text-[11px] font-mono">bg-light</code>.
+            </p>
+          </div>
+          <div class="flex items-center gap-3 shrink-0">
+            <div class="bg-white text-dark-text rounded-2xl p-4 shadow-lg w-48 text-left space-y-2 border border-gray-200">
+              <div class="flex items-center justify-between">
+                <span class="text-[10px] font-bold text-forest bg-forest/10 px-2 py-0.5 rounded">Snacks</span>
+                <span class="text-[10px] font-bold text-emerald-600">Stock: 48</span>
+              </div>
+              <p class="text-xs font-bold text-dark-text truncate">Papas Clásicas 115g</p>
+              <div class="flex items-center justify-between pt-1">
+                <span class="text-sm font-extrabold text-forest">$3.500</span>
+                <span class="w-6 h-6 rounded-full bg-forest text-white flex items-center justify-center text-xs font-bold">+</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+
+    <!-- Moodboard Footer -->
+    <footer class="text-center py-4 border-t border-gray-200 text-xs text-gray-500 flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center gap-2">
+        <span class="font-bold text-forest">StockQuick</span> — Sistema Web de Catálogo e Inventario Digital
+      </div>
+      <div>
+        <span>Paleta: Verde Bosque (#114B3E) • Gris Claro (#F8F9FA) • Blanco (#FFFFFF) • Texto Oscuro (#212529)</span>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
