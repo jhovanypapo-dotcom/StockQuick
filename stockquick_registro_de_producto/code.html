@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>StockQuick - Catálogo e inventario digital</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-on-surface":"#eaf1ff","on-secondary-fixed":"#002113","surface-variant":"#d9e3f6","on-primary-fixed":"#002019","on-primary-container":"#83baa9","on-surface":"#121c2a","primary-fixed":"#b6eedc","background":"#f8f9ff","on-tertiary-fixed":"#2a1700","on-error":"#ffffff","primary":"#003329","surface-bright":"#f8f9ff","primary-container":"#114b3e","on-primary-fixed-variant":"#174f42","error":"#ba1a1a","on-tertiary-container":"#f29c06","tertiary-fixed":"#ffddb8","on-tertiary-fixed-variant":"#653e00","on-error-container":"#93000a","on-secondary":"#ffffff","error-container":"#ffdad6","on-secondary-container":"#00714d","secondary-fixed-dim":"#4edea3","on-primary":"#ffffff","inverse-primary":"#9ad2c0","surface-container":"#e6eeff","on-tertiary":"#ffffff","primary-fixed-dim":"#9ad2c0","surface-container-highest":"#d9e3f6","surface-tint":"#326859","outline":"#707975","on-secondary-fixed-variant":"#005236","surface-container-lowest":"#ffffff","inverse-surface":"#27313f","secondary-fixed":"#6ffbbe","tertiary-fixed-dim":"#ffb95f","secondary":"#006c49","surface":"#f8f9ff","secondary-container":"#6cf8bb","surface-container-low":"#eff4ff","surface-dim":"#d0dbed","on-surface-variant":"#404945","tertiary-container":"#5f3a00","surface-container-high":"#dee9fc","on-background":"#121c2a","tertiary":"#412600","outline-variant":"#bfc9c4"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-xs":"0.25rem","gutter-mobile":"0.75rem","margin-mobile":"1rem",gutter:"1.25rem","space-xl":"2.25rem","space-md":"1rem","space-lg":"1.5rem",margin:"2rem","space-sm":"0.5rem"},fontFamily:{"headline-lg-mobile":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"display-mobile":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],display:["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"]},fontSize:{"headline-lg-mobile":["22px",{lineHeight:"30px",letterSpacing:"-0.01em",fontWeight:"700"}],"title-md":["15px",{lineHeight:"22px",fontWeight:"600"}],"headline-lg":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"700"}],"display-mobile":["30px",{lineHeight:"38px",letterSpacing:"-0.02em",fontWeight:"800"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.04em",fontWeight:"700"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"600"}],"body-sm":["12px",{lineHeight:"18px",fontWeight:"400"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",fontWeight:"400"}],"body-lg":["16px",{lineHeight:"24px",fontWeight:"400"}],display:["40px",{lineHeight:"48px",letterSpacing:"-0.03em",fontWeight:"800"}],"title-lg":["17px",{lineHeight:"24px",fontWeight:"600"}],"headline-md":["20px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-primary-container shadow-[0_1px_8px_rgba(17,75,62,0.12)]"><div class="h-16 w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md min-w-0 flex-shrink-0"><a class="flex items-center gap-space-sm" href="#"><img alt="StockQuick Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U_rrM_6WZaVk7hZ94eO_uvT8IbtLp9XOqSXbDpLioMLsxYNiO4SBUbUD0RTZ0YnYSvQOs3bwN_YBrpHp_yoTS9U5bqWXd-y2-8eG1lMhmAhS9hITkHjEio0793yjq_7sfLKEsAQHZqr_kAnSYvEXMQe-waDQpwzIbsIKBSfekAVwvLUH9WeOw2aD_7JkikN15NtKlGmCaQQqG9pQ6t7ytGDHbbsllYkj4tOpaHNPTyUU1rqzzDejJXzaE"/><span class="font-headline-md text-headline-md text-on-primary tracking-tight font-bold">StockQuick</span></a><div class="hidden xl:flex items-center px-space-sm py-1 rounded-full bg-primary text-on-primary-container font-label-sm text-label-sm"><span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed mr-1.5"></span>Tienda Don Javier - La Esperanza</div></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-primary text-on-primary rounded-lg font-bold"><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-primary-container hover:bg-primary hover:text-on-primary transition-colors rounded-lg" data-path="inicio-catalogo" href="#">Inicio / Catálogo</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-primary-container hover:bg-primary hover:text-on-primary transition-colors rounded-lg" data-path="inventario-rapido" href="#">Inventario Rápido</a><a aria-current="page" class="px-space-md py-space-sm transition-colors bg-primary text-on-primary rounded-lg font-bold" data-path="registrar-producto" href="#">Registrar Producto</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-primary-container hover:bg-primary hover:text-on-primary transition-colors rounded-lg" data-path="atencion-y-pedidos" href="#">Atención y Pedidos</a></nav><div class="flex items-center gap-space-sm sm:gap-space-md flex-shrink-0"><div class="hidden md:flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-primary text-on-primary"><span class="material-symbols-outlined text-secondary-fixed text-[18px]">inventory_2</span><span class="font-label-md text-label-md text-on-primary font-semibold">148 activos</span></div><button aria-label="Notificaciones" class="relative p-space-sm rounded-lg text-on-primary hover:bg-primary transition-colors flex items-center justify-center" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-on-tertiary-container ring-2 ring-primary-container"></span></button><div class="flex items-center gap-space-xs pl-space-xs"><button class="flex items-center gap-space-xs p-1 rounded-full hover:bg-primary transition-colors" type="button"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCHylmBmMGfmtn6y_XT6Si-CY_wrv5WnplGtGfmFovkUT3Lir6EpwaRtmFyT1A3RQjNC4vb5avuRGjcrvuTpXGQKeeO2MDxsKX94SIPZVu6ZwrcFn5kW_bL1wK4WAs1N4Gg9PxPsUe776uWSl0D86_LoG2IndB-UFCLTSsYCHjQ9Px5HoSk5kC26EVGQpqV_QjEBv-j6qSZ3jQrcefZ17SkvVjV8I37jcEshDwjrLqlI2-jPGweT4u"/><span class="material-symbols-outlined text-on-primary text-[18px]">expand_more</span></button></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-140px)]"><div class="flex flex-col w-full">
+<div class="w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-md lg:py-space-xl">
+<!-- Top Guidance & Progress Track -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div class="space-y-1">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-[14px]">bolt</span>
+<span>Alta Express de Mostrador</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface font-extrabold tracking-tight">Registrar Nuevo Producto</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          Agrega productos a tu catálogo digital en menos de un minuto para consultar precios y stock al instante desde el celular o mostrador.
+        </p>
+</div>
+<!-- Quick Step Meter -->
+<div class="bg-surface-container-low p-space-sm rounded-xl flex items-center gap-space-md shadow-sm">
+<div class="flex flex-col text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-bold">Estado de Registro</span>
+<span class="font-title-md text-title-md text-primary font-bold">Paso 1 de 1 • Datos Esenciales</span>
+</div>
+<div class="relative w-12 h-12 flex items-center justify-center">
+<svg class="w-12 h-12 -rotate-90" viewbox="0 0 36 36">
+<path class="text-surface-variant" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<path class="text-secondary transition-all duration-300" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" id="progressCircle" stroke="currentColor" stroke-dasharray="85, 100" stroke-linecap="round" stroke-width="3.5"></path>
+</svg>
+<span class="absolute font-label-sm text-label-sm font-extrabold text-on-surface" id="completionRate">85%</span>
+</div>
+</div>
+</div>
+<!-- Main Workspace: Form & Live Preview -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Product Form Container -->
+<div class="lg:col-span-8 bg-surface-container-lowest rounded-xl p-space-md sm:p-space-xl shadow-sm space-y-space-lg">
+<!-- Section: Identidad del Producto -->
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg font-bold text-primary flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-secondary">label</span>
+              1. Identificación del Artículo
+            </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Requerido *</span>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1.5" for="prodName">
+              Nombre Comercial del Producto *
+            </label>
+<div class="relative">
+<input class="w-full h-12 px-space-md pr-10 rounded-xl bg-surface-container-low text-on-surface font-body-lg text-body-lg outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container transition-all" id="prodName" placeholder="ej: Arroz Superior 1kg, Gaseosa Postobón 1.5L..." type="text" value="Aceite de Palma Cristal 900ml"/>
+<span class="material-symbols-outlined absolute right-3 top-3 text-on-surface-variant text-[20px]">edit</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Escribe la marca y contenido neto exacto como lo piden tus clientes.</p>
+</div>
+<!-- Categories Quick Selector -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-2">
+              Categoría de Venta Rápida *
+            </label>
+<div class="flex flex-wrap gap-space-xs" id="categoryChips">
+<button class="category-chip active px-space-md py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md transition-transform active:scale-95 flex items-center gap-1.5" data-cat="Abarrotes" type="button">
+<span class="material-symbols-outlined text-[16px]">kitchen</span>
+<span>Abarrotes</span>
+</button>
+<button class="category-chip px-space-md py-2 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-transform active:scale-95 flex items-center gap-1.5" data-cat="Bebidas" type="button">
+<span class="material-symbols-outlined text-[16px]">local_drink</span>
+<span>Bebidas</span>
+</button>
+<button class="category-chip px-space-md py-2 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-transform active:scale-95 flex items-center gap-1.5" data-cat="Snacks y Golosinas" type="button">
+<span class="material-symbols-outlined text-[16px]">cookie</span>
+<span>Snacks y Golosinas</span>
+</button>
+<button class="category-chip px-space-md py-2 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-transform active:scale-95 flex items-center gap-1.5" data-cat="Lácteos y Derivados" type="button">
+<span class="material-symbols-outlined text-[16px]">egg_alt</span>
+<span>Lácteos y Derivados</span>
+</button>
+<button class="category-chip px-space-md py-2 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-transform active:scale-95 flex items-center gap-1.5" data-cat="Aseo y Limpieza" type="button">
+<span class="material-symbols-outlined text-[16px]">sanitizer</span>
+<span>Aseo y Limpieza</span>
+</button>
+</div>
+</div>
+</div>
+<div class="w-full h-[1px] bg-surface-variant"></div>
+<!-- Section: Precios y Margen -->
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg font-bold text-primary flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-secondary">payments</span>
+              2. Precios y Margen de Utilidad
+            </span>
+<div class="flex items-center gap-1 bg-surface-container-high px-space-xs py-0.5 rounded-full font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">calculate</span>
+              Margen automático
+            </div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Precio de Venta -->
+<div class="bg-surface-container-low p-space-md rounded-xl space-y-1">
+<label class="block font-label-md text-label-md text-primary font-bold" for="salePrice">
+                Precio de Venta al Público (PVP) *
+              </label>
+<div class="relative flex items-center">
+<span class="absolute left-3.5 font-headline-md text-headline-md text-on-surface font-extrabold">$</span>
+<input class="w-full h-14 pl-10 pr-space-md bg-surface-container-lowest text-primary font-headline-md text-headline-md font-extrabold rounded-xl outline-none focus:ring-2 focus:ring-secondary transition-all" id="salePrice" step="100" type="number" value="8500"/>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Valor final que cobras en mostrador</p>
+</div>
+<!-- Costo Compra -->
+<div class="bg-surface-container-low p-space-md rounded-xl space-y-1">
+<div class="flex items-center justify-between">
+<label class="block font-label-md text-label-md text-on-surface font-semibold" for="costPrice">
+                  Costo de Compra al Proveedor
+                </label>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">(Opcional)</span>
+</div>
+<div class="relative flex items-center">
+<span class="absolute left-3.5 font-title-lg text-title-lg text-on-surface-variant font-bold">$</span>
+<input class="w-full h-14 pl-10 pr-space-md bg-surface-container-lowest text-on-surface font-title-lg text-title-lg font-bold rounded-xl outline-none focus:ring-2 focus:ring-primary-container transition-all" id="costPrice" step="100" type="number" value="6800"/>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Te ayuda a no vender a pérdida</p>
+</div>
+</div>
+<!-- Quick Margin Indicator -->
+<div class="p-space-md rounded-xl bg-surface-container flex flex-wrap items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[20px]">trending_up</span>
+</div>
+<div>
+<span class="block font-label-sm text-label-sm text-on-surface-variant uppercase font-bold tracking-wider">Ganancia Estimada por Unidad</span>
+<span class="font-title-lg text-title-lg text-primary font-extrabold" id="profitAmount">+$1.700 COP</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-md text-label-md text-on-surface-variant">Margen Comercial:</span>
+<span class="font-title-md text-title-md font-bold px-space-sm py-1 rounded-full bg-secondary text-on-secondary" id="marginPercent">
+                20.0%
+              </span>
+</div>
+</div>
+</div>
+<div class="w-full h-[1px] bg-surface-variant"></div>
+<!-- Section: Stock e Inventario -->
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg font-bold text-primary flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-secondary">inventory</span>
+              3. Existencias en Mostrador / Bodega
+            </span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Cantidad Inicial + Selector de Unidad -->
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-on-surface font-semibold">
+                Cantidad Inicial en Stock *
+              </label>
+<div class="flex items-center gap-space-xs">
+<div class="flex-1 relative">
+<input class="w-full h-12 px-space-md bg-surface-container-low text-on-surface font-title-lg text-title-lg font-bold rounded-xl outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container" id="stockQuantity" min="0" type="number" value="24"/>
+</div>
+<select class="h-12 px-space-md rounded-xl bg-surface-container-high text-on-surface font-label-lg text-label-lg font-semibold outline-none focus:ring-2 focus:ring-primary-container cursor-pointer" id="stockUnit">
+<option value="Unidades">Unidades (Und)</option>
+<option value="Kilos">Kilos (Kg)</option>
+<option value="Paquetes">Paquetes (Pqte)</option>
+<option value="Cajas">Cajas (Cja)</option>
+<option value="Botellas">Botellas</option>
+</select>
+</div>
+</div>
+<!-- Umbral Stock Bajo -->
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-on-surface font-semibold flex items-center justify-between">
+<span>Alerta de Reposición</span>
+<span class="text-tertiary-container font-label-sm text-label-sm font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">notifications_active</span> Automática
+                </span>
+</label>
+<div class="flex items-center gap-space-xs bg-surface-container-low px-space-md rounded-xl h-12">
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">warning</span>
+<span class="font-body-md text-body-md text-on-surface-variant whitespace-nowrap">Avisar con menos de</span>
+<input class="w-16 text-center font-title-md text-title-md font-bold bg-surface-container-lowest text-primary rounded-lg py-1 outline-none" id="stockMinThreshold" min="1" type="number" value="5"/>
+<span class="font-body-sm text-body-sm text-on-surface-variant">unid.</span>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full h-[1px] bg-surface-variant"></div>
+<!-- Section: Código de Barras & Foto Opcional -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Barcode scanner input -->
+<div class="space-y-1.5">
+<label class="block font-label-md text-label-md text-on-surface font-semibold">
+              Código de Barras / SKU
+            </label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[20px]">barcode</span>
+<input class="w-full h-12 pl-10 pr-space-md font-mono font-label-md text-label-md bg-surface-container-low text-on-surface rounded-xl outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container" id="barcodeInput" placeholder="Escanea o escribe el código" type="text" value="7702158941023"/>
+</div>
+<button class="w-full mt-2 h-11 px-space-md rounded-xl bg-surface-container hover:bg-surface-container-high text-primary font-label-md text-label-md font-bold flex items-center justify-center gap-2 transition-all active:scale-95" id="btnScanCamera" type="button">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+<span>Escanear con Cámara o Lector USB</span>
+</button>
+</div>
+<!-- Drag & drop product photo -->
+<div class="space-y-1.5">
+<div class="flex items-center justify-between">
+<label class="block font-label-md text-label-md text-on-surface font-semibold">Foto del Empaque</label>
+<span class="font-label-sm text-label-sm text-on-surface-variant">(Opcional)</span>
+</div>
+<div class="relative group h-28 rounded-xl bg-surface-container-low hover:bg-surface-container flex flex-col items-center justify-center cursor-pointer transition-all p-space-sm text-center">
+<input accept="image/*" class="absolute inset-0 opacity-0 cursor-pointer w-full h-full" id="fileUpload" type="file"/>
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">add_a_photo</span>
+</div>
+<div class="text-left">
+<span class="font-label-md text-label-md text-on-surface font-bold block">Toma foto o sube imagen</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">Para reconocerlo rápido en caja</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Live Catalog Card Preview & Final Actions -->
+<div class="lg:col-span-4 flex flex-col gap-space-md sticky top-20">
+<!-- Preview Box -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-extrabold uppercase tracking-wider text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">visibility</span>
+              Vista Previa en Catálogo
+            </span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              Mostrador POS
+            </span>
+</div>
+<!-- Mock Catalog Card Mirroring Real UI -->
+<div class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden transition-all duration-300">
+<!-- Image Frame -->
+<div class="relative w-full h-44 bg-surface-container-low overflow-hidden flex items-center justify-center">
+<img class="w-full h-full object-cover transition-transform hover:scale-105 duration-300" data-alt="A clean, vibrant studio photograph of a 900ml cooking oil bottle with golden liquid, modern clean label, warm soft grocery store lighting with emerald accents matching the StockQuick aesthetic." id="previewImg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4uxXgRahcdEc7VMSXAOye-KruoWqMsS3WB3pu-WHGAnc33eD3cW2EBPofLykKfO9bew29fb0zcoyEi9WPmoGtuvy8yHAbPfmA6PzRHYweuF2j7kj47-FSJmcXr4BjA5H9NkOVCpGZATh451jUNZag8Hwf6Wa8q17YRvgtvoDVz_uP8zsVWdhVHkm7cTSdbvRUfunSQtON1i70AqOtjDrZ09w0fiFGKDXcKCY-kloVOMxcH8Em1GOK"/>
+<span class="absolute top-2 left-2 px-space-sm py-0.5 rounded-full bg-primary/90 text-on-primary font-label-sm text-label-sm backdrop-blur-sm" id="previewCategoryTag">
+                Abarrotes
+              </span>
+<span class="absolute bottom-2 right-2 px-space-sm py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold flex items-center gap-1 shadow-sm" id="previewStockBadge">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span id="badgeStockText">24 en Stock</span>
+</span>
+</div>
+<!-- Card Info Body -->
+<div class="p-space-md space-y-space-xs">
+<div class="flex items-start justify-between gap-space-xs">
+<h3 class="font-title-md text-title-md text-on-surface font-bold line-clamp-2 leading-snug" id="previewTitle">
+                  Aceite de Palma Cristal 900ml
+                </h3>
+</div>
+<div class="flex items-center justify-between pt-1">
+<div>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">Precio Mostrador</span>
+<span class="font-headline-md text-headline-md text-primary font-extrabold" id="previewPrice">
+                    $8.500
+                  </span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-body-sm text-on-surface-variant block">Código SKU</span>
+<span class="font-label-sm text-label-sm font-mono text-on-surface font-semibold" id="previewSku">
+                    7702158941023
+                  </span>
+</div>
+</div>
+<!-- Quick Action Mock Counter Stepper -->
+<div class="mt-space-sm pt-space-xs flex items-center justify-between">
+<div class="flex items-center bg-surface-container rounded-lg p-0.5">
+<button class="w-7 h-7 flex items-center justify-center text-on-surface hover:bg-surface-container-highest rounded font-bold text-sm" type="button">-</button>
+<span class="px-space-sm font-label-md text-label-md font-bold text-on-surface">1</span>
+<button class="w-7 h-7 flex items-center justify-center text-on-surface hover:bg-surface-container-highest rounded font-bold text-sm" type="button">+</button>
+</div>
+<button class="px-space-md py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm font-bold flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+<span>Vender</span>
+</button>
+</div>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-center">
+            Así verás este producto al facturar en tu mostrador o al consultar inventario.
+          </p>
+</div>
+<!-- Action Call to Actions -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-xs">
+<!-- Primary Save Button -->
+<button class="w-full h-12 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg font-bold flex items-center justify-center gap-space-sm shadow-md hover:bg-primary transition-all active:scale-[0.98]" id="btnSaveProduct" type="button">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+<span>Guardar y Publicar en Catálogo</span>
+</button>
+<!-- Save and Add Another -->
+<button class="w-full h-11 rounded-xl bg-surface-container hover:bg-surface-container-high text-primary font-label-lg text-label-lg font-bold flex items-center justify-center gap-space-sm transition-all active:scale-[0.98]" id="btnSaveAndNew" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Guardar y Crear Otro</span>
+</button>
+<!-- Cancel / Back -->
+<button class="w-full h-10 rounded-xl text-on-surface-variant hover:text-on-surface font-label-md text-label-md font-semibold flex items-center justify-center transition-colors" type="button">
+<span>Volver al Catálogo</span>
+</button>
+</div>
+<!-- Toast Confirmation Notice (Dynamic) -->
+<div class="hidden transform transition-all duration-300 p-space-md rounded-xl bg-primary text-on-primary shadow-xl flex items-center gap-space-md" id="saveToast">
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]">verified</span>
+<div class="flex-1">
+<span class="font-title-md text-title-md font-bold block">¡Producto Guardado!</span>
+<span class="font-body-sm text-body-sm text-on-primary-container block">Disponible al instante en caja y catálogo.</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Products Table (Last 5 registered today) -->
+<div class="mt-space-xl bg-surface-container-lowest rounded-xl p-space-md sm:p-space-lg shadow-sm space-y-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="space-y-0.5">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">history_toggle_off</span>
+<h2 class="font-title-lg text-title-lg text-on-surface font-bold">Últimos 5 Productos Registrados Hoy</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Verificación rápida de ingresos del día para cuadrar existencias con tus facturas</p>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed-dim"></span>
+<span>Actualizado hace 2 minutos</span>
+</div>
+</div>
+<!-- Modern Dense Responsive Table -->
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse min-w-[640px]">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
+<th class="py-3 px-space-md rounded-l-lg">Producto</th>
+<th class="py-3 px-space-md">Categoría</th>
+<th class="py-3 px-space-md text-right">Precio Venta</th>
+<th class="py-3 px-space-md text-center">Stock Actual</th>
+<th class="py-3 px-space-md text-center">Estado</th>
+<th class="py-3 px-space-md text-right rounded-r-lg">Acción</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3 px-space-md flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-primary font-bold">
+<span class="material-symbols-outlined text-[20px]">local_cafe</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-bold block truncate">Café Águila Roja 500g</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-mono">SKU: 77010023412</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Abarrotes</span>
+</td>
+<td class="py-3 px-space-md text-right font-title-md text-title-md font-bold text-primary">
+                $14.200
+              </td>
+<td class="py-3 px-space-md text-center font-label-lg text-label-lg font-bold text-on-surface">
+                18 und
+              </td>
+<td class="py-3 px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Óptimo
+                </span>
+</td>
+<td class="py-3 px-space-md text-right">
+<button class="p-1 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Editar" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3 px-space-md flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-primary font-bold">
+<span class="material-symbols-outlined text-[20px]">soap</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-bold block truncate">Detergente Fab Floral 1kg</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-mono">SKU: 77020148819</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Aseo y Limpieza</span>
+</td>
+<td class="py-3 px-space-md text-right font-title-md text-title-md font-bold text-primary">
+                $9.800
+              </td>
+<td class="py-3 px-space-md text-center font-label-lg text-label-lg font-bold text-on-surface">
+                4 und
+              </td>
+<td class="py-3 px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-container"></span> Bajo Stock
+                </span>
+</td>
+<td class="py-3 px-space-md text-right">
+<button class="p-1 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Editar" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3 px-space-md flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-primary font-bold">
+<span class="material-symbols-outlined text-[20px]">sports_bar</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-bold block truncate">Cerveza Andina Lata 330ml</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-mono">SKU: 77099238415</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Bebidas</span>
+</td>
+<td class="py-3 px-space-md text-right font-title-md text-title-md font-bold text-primary">
+                $3.200
+              </td>
+<td class="py-3 px-space-md text-center font-label-lg text-label-lg font-bold text-on-surface">
+                48 und
+              </td>
+<td class="py-3 px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Óptimo
+                </span>
+</td>
+<td class="py-3 px-space-md text-right">
+<button class="p-1 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Editar" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3 px-space-md flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-primary font-bold">
+<span class="material-symbols-outlined text-[20px]">lunch_dining</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-bold block truncate">Papas Margarita Pollo 105g</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-mono">SKU: 77021100913</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Snacks y Golosinas</span>
+</td>
+<td class="py-3 px-space-md text-right font-title-md text-title-md font-bold text-primary">
+                $4.500
+              </td>
+<td class="py-3 px-space-md text-center font-label-lg text-label-lg font-bold text-on-surface">
+                12 und
+              </td>
+<td class="py-3 px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Óptimo
+                </span>
+</td>
+<td class="py-3 px-space-md text-right">
+<button class="p-1 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Editar" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</td>
+</tr>
+<!-- Row 5 -->
+<tr class="hover:bg-surface-container-low/60 transition-colors">
+<td class="py-3 px-space-md flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-primary font-bold">
+<span class="material-symbols-outlined text-[20px]">nutrition</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-bold block truncate">Leche Entera Alquería 1.1L</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-mono">SKU: 77011045902</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Lácteos y Derivados</span>
+</td>
+<td class="py-3 px-space-md text-right font-title-md text-title-md font-bold text-primary">
+                $5.100
+              </td>
+<td class="py-3 px-space-md text-center font-label-lg text-label-lg font-bold text-on-surface">
+                30 und
+              </td>
+<td class="py-3 px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Óptimo
+                </span>
+</td>
+<td class="py-3 px-space-md text-right">
+<button class="p-1 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Editar" type="button">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Dynamic Real-time Preview & Margin Calculation
+  const nameInput = document.getElementById('prodName');
+  const previewTitle = document.getElementById('previewTitle');
+  const saleInput = document.getElementById('salePrice');
+  const costInput = document.getElementById('costPrice');
+  const previewPrice = document.getElementById('previewPrice');
+  const profitAmount = document.getElementById('profitAmount');
+  const marginPercent = document.getElementById('marginPercent');
+  const stockInput = document.getElementById('stockQuantity');
+  const stockUnit = document.getElementById('stockUnit');
+  const badgeStockText = document.getElementById('badgeStockText');
+  const barcodeInput = document.getElementById('barcodeInput');
+  const previewSku = document.getElementById('previewSku');
+  const categoryChips = document.querySelectorAll('.category-chip');
+  const previewCategoryTag = document.getElementById('previewCategoryTag');
+  const saveBtn = document.getElementById('btnSaveProduct');
+  const saveAndNewBtn = document.getElementById('btnSaveAndNew');
+  const saveToast = document.getElementById('saveToast');
+  const btnScanCamera = document.getElementById('btnScanCamera');
+
+  // Format currency
+  function formatMoney(amount) {
+    return '$' + Number(amount || 0).toLocaleString('es-CO');
+  }
+
+  // Update live preview name
+  nameInput.addEventListener('input', (e) => {
+    previewTitle.textContent = e.target.value.trim() || 'Nombre del Producto';
+  });
+
+  // Calculate margin and profit
+  function updateMargin() {
+    const sale = parseFloat(saleInput.value) || 0;
+    const cost = parseFloat(costInput.value) || 0;
+    previewPrice.textContent = formatMoney(sale);
+
+    if (sale > 0 && cost > 0) {
+      const diff = sale - cost;
+      const margin = (diff / sale) * 100;
+      profitAmount.textContent = (diff >= 0 ? '+' : '') + formatMoney(diff) + ' COP';
+      marginPercent.textContent = margin.toFixed(1) + '%';
+      if (margin < 10) {
+        marginPercent.className = 'font-title-md text-title-md font-bold px-space-sm py-1 rounded-full bg-error-container text-on-error-container';
+      } else {
+        marginPercent.className = 'font-title-md text-title-md font-bold px-space-sm py-1 rounded-full bg-secondary text-on-secondary';
+      }
+    } else if (sale > 0) {
+      profitAmount.textContent = 'Sin costo registrado';
+      marginPercent.textContent = '--%';
+      marginPercent.className = 'font-title-md text-title-md font-bold px-space-sm py-1 rounded-full bg-surface-container-high text-on-surface-variant';
+    }
+  }
+
+  saleInput.addEventListener('input', updateMargin);
+  costInput.addEventListener('input', updateMargin);
+
+  // Update stock badge
+  function updateStockPreview() {
+    const qty = stockInput.value || '0';
+    const unit = stockUnit.value;
+    badgeStockText.textContent = `${qty} ${unit}`;
+  }
+  stockInput.addEventListener('input', updateStockPreview);
+  stockUnit.addEventListener('change', updateStockPreview);
+
+  // Update SKU in preview
+  barcodeInput.addEventListener('input', (e) => {
+    previewSku.textContent = e.target.value.trim() || 'SIN-CODIGO';
+  });
+
+  // Category Chip Selection
+  categoryChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      categoryChips.forEach(c => {
+        c.classList.remove('bg-primary', 'text-on-primary');
+        c.classList.add('bg-surface-container', 'text-on-surface');
+      });
+      chip.classList.remove('bg-surface-container', 'text-on-surface');
+      chip.classList.add('bg-primary', 'text-on-primary');
+      const catName = chip.getAttribute('data-cat');
+      previewCategoryTag.textContent = catName;
+    });
+  });
+
+  // Camera Barcode Scan Simulation
+  btnScanCamera.addEventListener('click', () => {
+    const sampleBarcodes = ['7702001099231', '7701982736154', '7709991204856'];
+    const randomCode = sampleBarcodes[Math.floor(Math.random() * sampleBarcodes.length)];
+    barcodeInput.value = randomCode;
+    previewSku.textContent = randomCode;
+    btnScanCamera.innerHTML = '<span class="material-symbols-outlined text-[18px] text-secondary">check</span><span>¡Código Capturado!</span>';
+    setTimeout(() => {
+      btnScanCamera.innerHTML = '<span class="material-symbols-outlined text-[18px]">photo_camera</span><span>Escanear con Cámara o Lector USB</span>';
+    }, 2000);
+  });
+
+  // Save feedback toast
+  function showSuccessToast() {
+    saveToast.classList.remove('hidden');
+    saveToast.classList.add('flex');
+    setTimeout(() => {
+      saveToast.classList.add('hidden');
+      saveToast.classList.remove('flex');
+    }, 3500);
+  }
+
+  saveBtn.addEventListener('click', showSuccessToast);
+  saveAndNewBtn.addEventListener('click', () => {
+    showSuccessToast();
+    setTimeout(() => {
+      nameInput.value = '';
+      saleInput.value = '';
+      costInput.value = '';
+      stockInput.value = '1';
+      barcodeInput.value = '';
+      previewTitle.textContent = 'Nuevo Producto';
+      previewPrice.textContent = '$0';
+      previewSku.textContent = '---';
+      profitAmount.textContent = '--';
+      marginPercent.textContent = '--%';
+      nameInput.focus();
+    }, 600);
+  });
+</script></main><footer class="w-full bg-surface-container-low mt-auto"><div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl flex flex-col md:flex-row items-center justify-between gap-space-lg text-center md:text-left"><div class="flex flex-col gap-1"><div class="flex items-center justify-center md:justify-start gap-space-sm"><span class="font-title-md text-title-md text-primary font-bold">StockQuick</span><span class="px-space-xs py-0.5 rounded text-[10px] bg-secondary-fixed-dim text-on-secondary-fixed font-bold uppercase tracking-wider">Retail Express</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Herramienta de control ágil de inventario y mostrador para comerciantes de barrio.</p></div><div class="flex items-center flex-wrap justify-center gap-space-lg font-label-md text-label-md text-on-surface-variant"><a class="hover:text-primary transition-colors flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[16px]">support_agent</span>Soporte y WhatsApp</a><a class="hover:text-primary transition-colors flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[16px]">menu_book</span>Guía rápida POS</a><a class="hover:text-primary transition-colors flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[16px]">receipt_long</span>Facturación Local</a></div><div class="font-body-sm text-body-sm text-on-surface-variant">© 2025 StockQuick Inc. Todos los derechos reservados.</div></div></footer></body></html>

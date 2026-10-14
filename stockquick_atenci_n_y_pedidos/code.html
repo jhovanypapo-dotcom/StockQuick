@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>StockQuick - Catálogo e inventario digital</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-on-surface":"#eaf1ff","on-secondary-fixed":"#002113","surface-variant":"#d9e3f6","on-primary-fixed":"#002019","on-primary-container":"#83baa9","on-surface":"#121c2a","primary-fixed":"#b6eedc","background":"#f8f9ff","on-tertiary-fixed":"#2a1700","on-error":"#ffffff","primary":"#003329","surface-bright":"#f8f9ff","primary-container":"#114b3e","on-primary-fixed-variant":"#174f42","error":"#ba1a1a","on-tertiary-container":"#f29c06","tertiary-fixed":"#ffddb8","on-tertiary-fixed-variant":"#653e00","on-error-container":"#93000a","on-secondary":"#ffffff","error-container":"#ffdad6","on-secondary-container":"#00714d","secondary-fixed-dim":"#4edea3","on-primary":"#ffffff","inverse-primary":"#9ad2c0","surface-container":"#e6eeff","on-tertiary":"#ffffff","primary-fixed-dim":"#9ad2c0","surface-container-highest":"#d9e3f6","surface-tint":"#326859","outline":"#707975","on-secondary-fixed-variant":"#005236","surface-container-lowest":"#ffffff","inverse-surface":"#27313f","secondary-fixed":"#6ffbbe","tertiary-fixed-dim":"#ffb95f","secondary":"#006c49","surface":"#f8f9ff","secondary-container":"#6cf8bb","surface-container-low":"#eff4ff","surface-dim":"#d0dbed","on-surface-variant":"#404945","tertiary-container":"#5f3a00","surface-container-high":"#dee9fc","on-background":"#121c2a","tertiary":"#412600","outline-variant":"#bfc9c4"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-xs":"0.25rem","gutter-mobile":"0.75rem","margin-mobile":"1rem",gutter:"1.25rem","space-xl":"2.25rem","space-md":"1rem","space-lg":"1.5rem",margin:"2rem","space-sm":"0.5rem"},fontFamily:{"headline-lg-mobile":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"display-mobile":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],display:["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"]},fontSize:{"headline-lg-mobile":["22px",{lineHeight:"30px",letterSpacing:"-0.01em",fontWeight:"700"}],"title-md":["15px",{lineHeight:"22px",fontWeight:"600"}],"headline-lg":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"700"}],"display-mobile":["30px",{lineHeight:"38px",letterSpacing:"-0.02em",fontWeight:"800"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.04em",fontWeight:"700"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"600"}],"body-sm":["12px",{lineHeight:"18px",fontWeight:"400"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",fontWeight:"400"}],"body-lg":["16px",{lineHeight:"24px",fontWeight:"400"}],display:["40px",{lineHeight:"48px",letterSpacing:"-0.03em",fontWeight:"800"}],"title-lg":["17px",{lineHeight:"24px",fontWeight:"600"}],"headline-md":["20px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-primary-container shadow-[0_1px_8px_rgba(17,75,62,0.12)]"><div class="h-16 w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md min-w-0 flex-shrink-0"><a class="flex items-center gap-space-sm" href="#"><img alt="StockQuick Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U_rrM_6WZaVk7hZ94eO_uvT8IbtLp9XOqSXbDpLioMLsxYNiO4SBUbUD0RTZ0YnYSvQOs3bwN_YBrpHp_yoTS9U5bqWXd-y2-8eG1lMhmAhS9hITkHjEio0793yjq_7sfLKEsAQHZqr_kAnSYvEXMQe-waDQpwzIbsIKBSfekAVwvLUH9WeOw2aD_7JkikN15NtKlGmCaQQqG9pQ6t7ytGDHbbsllYkj4tOpaHNPTyUU1rqzzDejJXzaE"/><span class="font-headline-md text-headline-md text-on-primary tracking-tight font-bold">StockQuick</span></a><div class="hidden xl:flex items-center px-space-sm py-1 rounded-full bg-primary text-on-primary-container font-label-sm text-label-sm"><span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed mr-1.5"></span>Tienda Don Javier - La Esperanza</div></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-primary text-on-primary rounded-lg font-bold"><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-primary-container hover:bg-primary hover:text-on-primary transition-colors rounded-lg" data-path="inicio-catalogo" href="#">Inicio / Catálogo</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-primary-container hover:bg-primary hover:text-on-primary transition-colors rounded-lg" data-path="inventario-rapido" href="#">Inventario Rápido</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-primary-container hover:bg-primary hover:text-on-primary transition-colors rounded-lg" data-path="registrar-producto" href="#">Registrar Producto</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-primary-container hover:bg-primary hover:text-on-primary transition-colors rounded-lg" data-path="atencion-y-pedidos" href="#">Atención y Pedidos</a></nav><div class="flex items-center gap-space-sm sm:gap-space-md flex-shrink-0"><div class="hidden md:flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-primary text-on-primary"><span class="material-symbols-outlined text-secondary-fixed text-[18px]">inventory_2</span><span class="font-label-md text-label-md text-on-primary font-semibold">148 activos</span></div><button aria-label="Notificaciones" class="relative p-space-sm rounded-lg text-on-primary hover:bg-primary transition-colors flex items-center justify-center" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-on-tertiary-container ring-2 ring-primary-container"></span></button><div class="flex items-center gap-space-xs pl-space-xs"><button class="flex items-center gap-space-xs p-1 rounded-full hover:bg-primary transition-colors" type="button"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCHylmBmMGfmtn6y_XT6Si-CY_wrv5WnplGtGfmFovkUT3Lir6EpwaRtmFyT1A3RQjNC4vb5avuRGjcrvuTpXGQKeeO2MDxsKX94SIPZVu6ZwrcFn5kW_bL1wK4WAs1N4Gg9PxPsUe776uWSl0D86_LoG2IndB-UFCLTSsYCHjQ9Px5HoSk5kC26EVGQpqV_QjEBv-j6qSZ3jQrcefZ17SkvVjV8I37jcEshDwjrLqlI2-jPGweT4u"/><span class="material-symbols-outlined text-on-primary text-[18px]">expand_more</span></button></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-140px)]"><div class="flex flex-col w-full">
+<div class="w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-lg flex flex-col gap-space-lg">
+<!-- Top Action / Context Header -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md bg-surface-container-low p-space-md lg:p-space-lg rounded-xl shadow-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">storefront</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Canal Vecinal Directo</span>
+</div>
+<div class="flex items-baseline gap-space-sm">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Gestión de Mostrador &amp; Encargos</h2>
+<span class="hidden sm:inline-block font-body-sm text-body-sm text-on-surface-variant">• Don Javier - Turno Tarde</span>
+</div>
+</div>
+<!-- Control Bar: Mode Toggle & Store Operational State -->
+<div class="flex flex-wrap items-center gap-space-sm sm:gap-space-md">
+<!-- View Toggle Buttons -->
+<div class="flex items-center bg-surface-container p-1 rounded-xl shadow-inner">
+<button class="flex items-center gap-1.5 px-space-md py-2 rounded-lg font-label-lg text-label-lg bg-primary-container text-on-primary shadow-sm transition-all" id="btn-mode-counter" onclick="switchMode('counter')">
+<span class="material-symbols-outlined text-[18px]">phone_in_talk</span>
+<span>Toma de Pedidos</span>
+</button>
+<button class="flex items-center gap-1.5 px-space-md py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all relative" id="btn-mode-inbox" onclick="switchMode('inbox')">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Buzón Vecinal</span>
+<span class="inline-flex items-center justify-center w-5 h-5 ml-1 text-[11px] font-bold rounded-full bg-tertiary-container text-on-tertiary-container">3</span>
+</button>
+</div>
+<!-- Store Open / Close Dynamic Switch -->
+<div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-2 rounded-xl shadow-sm">
+<span class="relative flex h-3 w-3">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary-fixed opacity-75" id="store-pulse"></span>
+<span class="relative inline-flex rounded-full h-3 w-3 bg-secondary" id="store-dot"></span>
+</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold leading-tight" id="store-status-text">Abierto hoy hasta 9:00 PM</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant leading-tight">Recepción activa en WhatsApp</span>
+</div>
+<button class="p-1 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" id="btn-toggle-store" onclick="toggleStoreStatus()" title="Cambiar disponibilidad de atención">
+<span class="material-symbols-outlined text-[20px]">sync_alt</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Main Operational Workspace Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Left Column: Form & Quick Calculator (7 Cols on desktop) -->
+<section class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- Order & Inquiry Entry Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md lg:p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-6 rounded-full bg-primary"></span>
+<h3 class="font-title-lg text-title-lg text-on-surface">Formulario de Pedido y Consulta Telefónica</h3>
+</div>
+<span class="font-label-sm text-label-sm uppercase bg-surface-container px-space-sm py-0.5 rounded text-on-surface-variant">Ticket #106</span>
+</div>
+<form class="flex flex-col gap-space-md" id="order-form" onsubmit="handleOrderSubmit(event)">
+<!-- Customer Details Row -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center justify-between">
+<span>Vecino / Cliente</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant font-normal">Identificador o Apto</span>
+</label>
+<div class="flex items-center bg-surface-container-low px-space-sm py-2 rounded-xl focus-within:bg-surface-container-lowest focus-within:shadow-sm">
+<span class="material-symbols-outlined text-outline text-[20px] mr-2">person</span>
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none" id="cust-name" placeholder="Ej. Doña Marta - Apto 302" required="" type="text"/>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center justify-between">
+<span>Teléfono / WhatsApp</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant font-normal">Notificación</span>
+</label>
+<div class="flex items-center bg-surface-container-low px-space-sm py-2 rounded-xl focus-within:bg-surface-container-lowest focus-within:shadow-sm">
+<span class="material-symbols-outlined text-outline text-[20px] mr-2">call</span>
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none" id="cust-phone" placeholder="310 456 7890" required="" type="tel"/>
+</div>
+</div>
+</div>
+<!-- Request Type Selector -->
+<div class="flex flex-col gap-1">
+<label class="font-label-lg text-label-lg text-on-surface">Tipo de Solicitud</label>
+<div class="grid grid-cols-3 gap-space-xs text-center">
+<label class="cursor-pointer">
+<input checked="" class="peer sr-only" name="request-type" type="radio" value="delivery"/>
+<div class="p-2.5 rounded-xl bg-surface-container-low text-on-surface-variant peer-checked:bg-primary peer-checked:text-on-primary transition-colors flex flex-col items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">two_wheeler</span>
+<span class="font-label-md text-label-md">Domicilio</span>
+</div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="request-type" type="radio" value="inquiry"/>
+<div class="p-2.5 rounded-xl bg-surface-container-low text-on-surface-variant peer-checked:bg-primary peer-checked:text-on-primary transition-colors flex flex-col items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">help_center</span>
+<span class="font-label-md text-label-md">Consulta Stock</span>
+</div>
+</label>
+<label class="cursor-pointer">
+<input class="peer sr-only" name="request-type" type="radio" value="hold"/>
+<div class="p-2.5 rounded-xl bg-surface-container-low text-on-surface-variant peer-checked:bg-primary peer-checked:text-on-primary transition-colors flex flex-col items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+<span class="font-label-md text-label-md">Apartado</span>
+</div>
+</label>
+</div>
+</div>
+<!-- Live Product Selector and Cart Array -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center justify-between">
+<span>Añadir Artículos del Inventario</span>
+<span class="font-body-sm text-[12px] text-secondary font-semibold">148 SKUs en mostrador</span>
+</label>
+<!-- Live Product Search -->
+<div class="relative">
+<div class="flex items-center bg-surface-container px-space-md py-2.5 rounded-xl shadow-inner">
+<span class="material-symbols-outlined text-outline text-[20px] mr-2">search</span>
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none" id="product-search" oninput="filterCatalog(this.value)" placeholder="Buscar pan, leche, huevos, gaseosa..." type="text"/>
+<button class="text-outline hover:text-on-surface" onclick="clearSearch()" type="button">
+<span class="material-symbols-outlined text-[18px]">backspace</span>
+</button>
+</div>
+<!-- Live Results Dropdown Box -->
+<div class="hidden absolute top-full left-0 right-0 z-20 mt-1 bg-surface-container-lowest rounded-xl shadow-xl overflow-hidden max-h-56 overflow-y-auto" id="search-results-box">
+<!-- Injected dynamically via JS -->
+</div>
+</div>
+<!-- Quick Picks Shortcut Chips -->
+<div class="flex items-center gap-space-xs overflow-x-auto py-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant shrink-0">Frecuentes:</span>
+<button class="shrink-0 px-2.5 py-1 bg-surface-container hover:bg-surface-container-high rounded-full font-label-md text-label-md text-on-surface transition-colors" onclick="addProductToCart('Leche Deslactosada 1L', 4800)" type="button">+ Leche 1L ($4,800)</button>
+<button class="shrink-0 px-2.5 py-1 bg-surface-container hover:bg-surface-container-high rounded-full font-label-md text-label-md text-on-surface transition-colors" onclick="addProductToCart('Huevos AA x30 Panal', 16500)" type="button">+ Huevos Panal ($16,500)</button>
+<button class="shrink-0 px-2.5 py-1 bg-surface-container hover:bg-surface-container-high rounded-full font-label-md text-label-md text-on-surface transition-colors" onclick="addProductToCart('Pan Tajado Bimbo 450g', 5800)" type="button">+ Pan Tajado ($5,800)</button>
+<button class="shrink-0 px-2.5 py-1 bg-surface-container hover:bg-surface-container-high rounded-full font-label-md text-label-md text-on-surface transition-colors" onclick="addProductToCart('Arroz Diana 1kg', 4200)" type="button">+ Arroz 1kg ($4,200)</button>
+</div>
+<!-- Cart List Table -->
+<div class="bg-surface-container-low rounded-xl p-space-sm flex flex-col gap-2 min-h-[140px] max-h-[220px] overflow-y-auto" id="cart-container">
+<!-- Cart rows injected via script -->
+<div class="flex flex-col items-center justify-center py-6 text-on-surface-variant" id="cart-empty-state">
+<span class="material-symbols-outlined text-[32px] mb-1 opacity-50">shopping_bag</span>
+<span class="font-body-sm text-body-sm">No has agregado artículos a este encargo</span>
+</div>
+</div>
+<!-- Cart Subtotal / Calculations Bar -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container rounded-xl">
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Total Estimado</span>
+<span class="font-label-sm text-label-sm text-secondary" id="cart-item-count">0 productos</span>
+</div>
+<div class="text-right">
+<span class="font-headline-lg text-headline-lg text-primary font-extrabold tracking-tight" id="cart-total-display">$0</span>
+</div>
+</div>
+</div>
+<!-- Notes & Delivery Instructions -->
+<div class="flex flex-col gap-1">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center justify-between">
+<span>Instrucciones Especiales &amp; Cambio</span>
+<span class="font-body-sm text-[11px] text-on-surface-variant">Para el repartidor</span>
+</label>
+<div class="bg-surface-container-low p-2 rounded-xl focus-within:bg-surface-container-lowest focus-within:shadow-sm">
+<textarea class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none resize-none" id="order-notes" placeholder="Ej. Traer cambio de $50,000, tocar el timbre 2 veces en el portón blanco." rows="2"></textarea>
+</div>
+</div>
+<!-- WhatsApp Direct Dispatch Action -->
+<button class="w-full py-3.5 px-space-lg rounded-xl bg-primary text-on-primary hover:bg-primary-container transition-all flex items-center justify-center gap-space-sm shadow-md active:scale-[0.99]" type="submit">
+<span class="material-symbols-outlined text-[22px]">send</span>
+<span class="font-title-md text-title-md font-bold">Generar Pedido y Enviar Confirmación por WhatsApp</span>
+</button>
+</form>
+</div>
+<!-- Quick Neighborhood Store Info Card (Shareable with Clients) -->
+<div class="bg-surface-container-low rounded-xl p-space-md lg:p-space-lg shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-14 h-14 rounded-xl bg-primary-container text-secondary-fixed flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[30px]">local_convenience_store</span>
+</div>
+<div class="flex flex-col">
+<h4 class="font-title-lg text-title-lg text-on-surface font-bold">Mini-mercado La Esperanza</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Calle 45 # 12-34 • WhatsApp Mostrador: <span class="font-semibold text-primary">+57 312 890 1234</span></p>
+<span class="font-label-sm text-label-sm text-secondary font-bold mt-0.5">Entregas sin costo adicional a 4 cuadras a la redonda</span>
+</div>
+</div>
+<button class="w-full md:w-auto px-space-md py-2.5 bg-surface-container-lowest text-primary rounded-xl font-label-lg text-label-lg flex items-center justify-center gap-2 hover:bg-surface-container-highest transition-colors shadow-sm" onclick="copyStoreCard()" type="button">
+<span class="material-symbols-outlined text-[18px]">content_copy</span>
+<span>Copiar Datos de Tienda</span>
+</button>
+</div>
+</section>
+<!-- Right Column: Queue, Inquiries & Operational Feed (5 Cols on desktop) -->
+<section class="lg:col-span-5 flex flex-col gap-space-lg">
+<!-- Today's Queue Section Header -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px]">format_list_bulleted</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">Cola del Día</h3>
+</div>
+<div class="flex items-center gap-1 font-label-md text-label-md text-on-surface-variant bg-surface-container px-space-sm py-1 rounded-full">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container"></span>
+<span>2 Activos • 1 Consulta</span>
+</div>
+</div>
+<!-- Orders & Inquiries Stream -->
+<div class="flex flex-col gap-space-md">
+<!-- Card: Pedido #104 (Por despachar) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm transition-all hover:shadow-md" id="order-card-104">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm bg-surface-container-high px-2 py-0.5 rounded text-on-surface font-bold">#104</span>
+<h4 class="font-title-md text-title-md text-on-surface font-bold">Doña Carmen</h4>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Carrera 14 #43-20 Int. 2 • 4 ítems</span>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-label-sm font-label-sm bg-tertiary-fixed text-on-tertiary-fixed font-bold">
+<span class="material-symbols-outlined text-[14px]">local_shipping</span>
+                Por despachar
+              </span>
+</div>
+<!-- Items preview -->
+<div class="bg-surface-container-low p-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant">
+              1x Arroz 5kg, 1x Aceite Vegetal 900ml, 2x Panela cuadrada, 1x Sal 1kg
+            </div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">Importe</span>
+<span class="font-title-lg text-title-lg font-bold text-primary">$28,500</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<a class="p-2 rounded-lg bg-surface-container text-on-surface-variant hover:text-primary transition-colors" href="https://wa.me/573001234567?text=Hola%20Doña%20Carmen,%20su%20pedido%20StockQuick%20va%20en%20camino." target="_blank" title="Abrir Chat WhatsApp">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+<button class="px-space-md py-2 rounded-lg bg-secondary text-on-secondary hover:bg-on-secondary-container transition-colors font-label-md text-label-md font-semibold flex items-center gap-1 shadow-sm" onclick="markDelivered('order-card-104', '#104')" type="button">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>Marcar Entregado</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card: Pedido #105 (Preparando) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm transition-all hover:shadow-md" id="order-card-105">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm bg-surface-container-high px-2 py-0.5 rounded text-on-surface font-bold">#105</span>
+<h4 class="font-title-md text-title-md text-on-surface font-bold">Don Roberto</h4>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Recoge en mostrador • 2 ítems</span>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-label-sm font-label-sm bg-surface-container-highest text-on-surface font-bold">
+<span class="material-symbols-outlined text-[14px]">hourglass_top</span>
+                Preparando
+              </span>
+</div>
+<!-- Items preview -->
+<div class="bg-surface-container-low p-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant">
+              1x Sixpack Cerveza Águila Light, 1x Papas Margarita Limón 110g
+            </div>
+<div class="flex items-center justify-between pt-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">Importe</span>
+<span class="font-title-lg text-title-lg font-bold text-primary">$11,000</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-md py-2 rounded-lg bg-primary-container text-on-primary hover:bg-primary transition-colors font-label-md text-label-md font-semibold flex items-center gap-1 shadow-sm" onclick="markReady('order-card-105')" type="button">
+<span class="material-symbols-outlined text-[16px]">inventory</span>
+<span>Listo para Mostrador</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card: Consulta #32 (Interacción rápida de cliente) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm border-l-4 border-on-tertiary-container transition-all" id="inquiry-card-32">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed px-2 py-0.5 rounded font-bold">Consulta #32</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Hace 4 min • WhatsApp</span>
+</div>
+<span class="material-symbols-outlined text-on-tertiary-container text-[20px]">contact_support</span>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md italic">
+              “¿Tienen leche deslactosada Alquería de bolsa? ¿Cuánto vale?”
+            </div>
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2 pt-1">
+<div class="flex items-center gap-1.5 font-label-sm text-label-sm text-secondary font-semibold">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>Stock: 8 unidades</span>
+</div>
+<button class="px-space-md py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container transition-colors font-label-md text-label-md font-semibold flex items-center justify-center gap-1 shadow-sm" onclick="quickReplyInquiry('inquiry-card-32')" type="button">
+<span class="material-symbols-outlined text-[16px]">reply</span>
+<span>Responder: Sí disponible ($4,800)</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Neighborhood Demand & Fast Stock Pulse -->
+<div class="bg-surface-container-low rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<h4 class="font-title-md text-title-md text-on-surface font-bold">Más Preguntados en Mostrador Hoy</h4>
+<span class="font-label-sm text-label-sm text-outline">Actualizado 14:30</span>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-lowest">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">trending_up</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">Panela Pastilla 500g</span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">14 consultas</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-lowest">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">trending_up</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">Gaseosa Postobón 1.5L Manzana</span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-surface-container text-on-surface-variant">11 consultas</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-lowest">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-error text-[18px]">warning</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">Aceite de Oliva 500ml</span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-error-container text-on-error-container">Agotado</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<!-- Notification Toast -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none bg-primary text-on-primary px-space-md py-3 rounded-xl shadow-xl flex items-center gap-space-sm font-label-lg text-label-lg" id="toast-message">
+<span class="material-symbols-outlined text-[20px] text-secondary-fixed">check_circle</span>
+<span id="toast-text">Acción completada exitosamente</span>
+</div>
+</div>
+<script>
+  // Sample in-memory catalog
+  const inventoryDb = [
+    { id: '1', name: 'Leche Deslactosada Alquería 1L', price: 4800, stock: 12, category: 'Lácteos' },
+    { id: '2', name: 'Huevos AA x30 Panal Blanco', price: 16500, stock: 8, category: 'Víveres' },
+    { id: '3', name: 'Pan Tajado Bimbo Tradicional 450g', price: 5800, stock: 5, category: 'Panadería' },
+    { id: '4', name: 'Arroz Diana Especial 1kg', price: 4200, stock: 34, category: 'Granos' },
+    { id: '5', name: 'Aceite Vegetal Premier 900ml', price: 9200, stock: 14, category: 'Abarrotes' },
+    { id: '6', name: 'Azúcar Blanco Manuelita 1kg', price: 4600, stock: 19, category: 'Abarrotes' },
+    { id: '7', name: 'Café Sello Rojo 500g', price: 14500, stock: 6, category: 'Cafetería' },
+    { id: '8', name: 'Gaseosa Coca-Cola 1.5L No Retornable', price: 6200, stock: 15, category: 'Bebidas' }
+  ];
+
+  let cart = [];
+  let isStoreOpen = true;
+
+  function filterCatalog(term) {
+    const box = document.getElementById('search-results-box');
+    if (!term || term.trim().length < 2) {
+      box.classList.add('hidden');
+      box.innerHTML = '';
+      return;
+    }
+
+    const matches = inventoryDb.filter(i => i.name.toLowerCase().includes(term.toLowerCase()));
+    if (matches.length === 0) {
+      box.innerHTML = '<div class="p-3 text-body-sm font-body-sm text-on-surface-variant text-center">No se encontraron productos coincidentes</div>';
+      box.classList.remove('hidden');
+      return;
+    }
+
+    box.innerHTML = matches.map(item => `
+      <div onclick="addProductToCart('${item.name}', ${item.price})" class="flex items-center justify-between p-2.5 hover:bg-surface-container-high cursor-pointer transition-colors border-b border-surface-container-low last:border-none">
+        <div class="flex flex-col">
+          <span class="font-body-md text-body-md text-on-surface font-semibold">${item.name}</span>
+          <span class="font-body-sm text-body-sm text-on-surface-variant">${item.category} &bull; Stock: ${item.stock}</span>
+        </div>
+        <span class="font-label-lg text-label-lg font-bold text-primary">$${item.price.toLocaleString()}</span>
+      </div>
+    `).join('');
+    box.classList.remove('hidden');
+  }
+
+  function clearSearch() {
+    document.getElementById('product-search').value = '';
+    const box = document.getElementById('search-results-box');
+    box.classList.add('hidden');
+    box.innerHTML = '';
+  }
+
+  function addProductToCart(name, price) {
+    const existing = cart.find(i => i.name === name);
+    if (existing) {
+      existing.qty += 1;
+    } else {
+      cart.push({ name, price, qty: 1 });
+    }
+    clearSearch();
+    renderCart();
+  }
+
+  function adjustQty(index, delta) {
+    if (!cart[index]) return;
+    cart[index].qty += delta;
+    if (cart[index].qty <= 0) {
+      cart.splice(index, 1);
+    }
+    renderCart();
+  }
+
+  function removeCartItem(index) {
+    cart.splice(index, 1);
+    renderCart();
+  }
+
+  function renderCart() {
+    const container = document.getElementById('cart-container');
+    const totalDisplay = document.getElementById('cart-total-display');
+    const countDisplay = document.getElementById('cart-item-count');
+
+    if (cart.length === 0) {
+      container.innerHTML = `
+        <div id="cart-empty-state" class="flex flex-col items-center justify-center py-6 text-on-surface-variant">
+          <span class="material-symbols-outlined text-[32px] mb-1 opacity-50">shopping_bag</span>
+          <span class="font-body-sm text-body-sm">No has agregado art&iacute;culos a este encargo</span>
+        </div>
+      `;
+      totalDisplay.innerText = '$0';
+      countDisplay.innerText = '0 productos';
+      return;
+    }
+
+    let subtotal = 0;
+    let totalItems = 0;
+
+    container.innerHTML = cart.map((item, idx) => {
+      const itemSubtotal = item.price * item.qty;
+      subtotal += itemSubtotal;
+      totalItems += item.qty;
+
+      return `
+        <div class="flex items-center justify-between bg-surface-container-lowest p-2 rounded-xl shadow-xs">
+          <div class="flex flex-col min-w-0 pr-2">
+            <span class="font-body-md text-body-md font-semibold text-on-surface truncate">${item.name}</span>
+            <span class="font-body-sm text-body-sm text-outline">$${item.price.toLocaleString()} c/u</span>
+          </div>
+
+          <div class="flex items-center gap-space-sm shrink-0">
+            <div class="flex items-center bg-surface-container-low rounded-lg p-0.5">
+              <button type="button" onclick="adjustQty(${idx}, -1)" class="w-6 h-6 flex items-center justify-center rounded text-on-surface hover:bg-surface-container">
+                <span class="material-symbols-outlined text-[14px]">remove</span>
+              </button>
+              <span class="w-6 text-center font-label-md text-label-md font-bold text-on-surface">${item.qty}</span>
+              <button type="button" onclick="adjustQty(${idx}, 1)" class="w-6 h-6 flex items-center justify-center rounded text-on-surface hover:bg-surface-container">
+                <span class="material-symbols-outlined text-[14px]">add</span>
+              </button>
+            </div>
+            <span class="font-label-lg text-label-lg font-bold text-primary w-16 text-right">$${itemSubtotal.toLocaleString()}</span>
+            <button type="button" onclick="removeCartItem(${idx})" class="text-outline hover:text-error ml-1">
+              <span class="material-symbols-outlined text-[18px]">close</span>
+            </button>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    totalDisplay.innerText = '$' + subtotal.toLocaleString();
+    countDisplay.innerText = `${totalItems} ${totalItems === 1 ? 'producto' : 'productos'}`;
+  }
+
+  function handleOrderSubmit(e) {
+    e.preventDefault();
+    const name = document.getElementById('cust-name').value;
+    const phone = document.getElementById('cust-phone').value;
+    const notes = document.getElementById('order-notes').value;
+    const type = document.querySelector('input[name="request-type"]:checked').value;
+
+    if (cart.length === 0 && type !== 'inquiry') {
+      showToast('Por favor agrega al menos un artículo o cambia el tipo a Consulta.');
+      return;
+    }
+
+    // Compose formatted WhatsApp payload
+    let summaryText = `*StockQuick - Encargo Confirmado*\n`;
+    summaryText += `Vecino: ${name}\n`;
+    summaryText += `Tipo: ${type.toUpperCase()}\n\n`;
+    
+    if (cart.length > 0) {
+      summaryText += `*Artículos:*\n`;
+      let total = 0;
+      cart.forEach(item => {
+        summaryText += `- ${item.qty}x ${item.name} ($${(item.price * item.qty).toLocaleString()})\n`;
+        total += item.price * item.qty;
+      });
+      summaryText += `\n*Total a Pagar:* $${total.toLocaleString()}\n`;
+    }
+
+    if (notes) {
+      summaryText += `*Notas:* ${notes}\n`;
+    }
+    summaryText += `\n¡Gracias por preferir a su tendero de confianza!`;
+
+    const cleanPhone = phone.replace(/[^0-9]/g, '');
+    const waUrl = `https://wa.me/${cleanPhone.startsWith('57') ? cleanPhone : '57' + cleanPhone}?text=${encodeURIComponent(summaryText)}`;
+
+    // Open WhatsApp link in new tab
+    window.open(waUrl, '_blank');
+
+    showToast(`Pedido generado y WhatsApp listo para ${name}`);
+    
+    // Reset form
+    document.getElementById('order-form').reset();
+    cart = [];
+    renderCart();
+  }
+
+  function markDelivered(cardId, orderNum) {
+    const el = document.getElementById(cardId);
+    if (el) {
+      el.style.opacity = '0.5';
+      el.style.pointerEvents = 'none';
+      setTimeout(() => {
+        el.remove();
+        showToast(`Pedido ${orderNum} marcado como entregado.`);
+      }, 400);
+    }
+  }
+
+  function markReady(cardId) {
+    const el = document.getElementById(cardId);
+    if (el) {
+      el.innerHTML = `
+        <div class="flex items-center justify-between p-2 bg-secondary-fixed rounded-lg text-on-secondary-fixed">
+          <span class="font-label-md text-label-md font-bold flex items-center gap-1">
+            <span class="material-symbols-outlined text-[18px]">verified</span>
+            Listo en mostrador para recogida
+          </span>
+          <button onclick="this.parentElement.parentElement.remove()" class="font-label-sm text-label-sm uppercase underline">Cerrar</button>
+        </div>
+      `;
+      showToast('Don Roberto notificado: Su pedido está empacado en mostrador.');
+    }
+  }
+
+  function quickReplyInquiry(cardId) {
+    const el = document.getElementById(cardId);
+    if (el) {
+      el.classList.add('bg-surface-container-high');
+      showToast('Respuesta automática de stock enviada por WhatsApp al cliente.');
+      setTimeout(() => {
+        el.remove();
+      }, 600);
+    }
+  }
+
+  function copyStoreCard() {
+    const text = "Mini-mercado La Esperanza | StockQuick\nDirección: Calle 45 # 12-34\nWhatsApp Domicilios: +57 312 890 1234\nHorario: Lunes a Sábado 7:00 AM - 9:00 PM | Domingos 8:00 AM - 6:00 PM";
+    navigator.clipboard.writeText(text).then(() => {
+      showToast('Datos de contacto de la tienda copiados al portapapeles');
+    });
+  }
+
+  function toggleStoreStatus() {
+    isStoreOpen = !isStoreOpen;
+    const statusText = document.getElementById('store-status-text');
+    const dot = document.getElementById('store-dot');
+    const pulse = document.getElementById('store-pulse');
+
+    if (isStoreOpen) {
+      statusText.innerText = "Abierto hoy hasta 9:00 PM";
+      dot.className = "relative inline-flex rounded-full h-3 w-3 bg-secondary";
+      pulse.className = "animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary-fixed opacity-75";
+      showToast('Tienda marcada como ABIERTA al público');
+    } else {
+      statusText.innerText = "Cerrado por hoy (Solo WhatsApp)";
+      dot.className = "relative inline-flex rounded-full h-3 w-3 bg-error";
+      pulse.className = "hidden";
+      showToast('Tienda marcada en MODO CERRADO / DESCANSO');
+    }
+  }
+
+  function switchMode(mode) {
+    const btnCounter = document.getElementById('btn-mode-counter');
+    const btnInbox = document.getElementById('btn-mode-inbox');
+
+    if (mode === 'counter') {
+      btnCounter.className = "flex items-center gap-1.5 px-space-md py-2 rounded-lg font-label-lg text-label-lg bg-primary-container text-on-primary shadow-sm transition-all";
+      btnInbox.className = "flex items-center gap-1.5 px-space-md py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all relative";
+      showToast('Modo Toma de Mostrador activado');
+    } else {
+      btnInbox.className = "flex items-center gap-1.5 px-space-md py-2 rounded-lg font-label-lg text-label-lg bg-primary-container text-on-primary shadow-sm transition-all relative";
+      btnCounter.className = "flex items-center gap-1.5 px-space-md py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-all";
+      showToast('Modo Buzón Vecinal enfocado');
+    }
+  }
+
+  function showToast(msg) {
+    const toast = document.getElementById('toast-message');
+    const txt = document.getElementById('toast-text');
+    txt.innerText = msg;
+    toast.classList.remove('translate-y-24', 'opacity-0');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    setTimeout(() => {
+      toast.classList.remove('translate-y-0', 'opacity-100');
+      toast.classList.add('translate-y-24', 'opacity-0');
+    }, 3200);
+  }
+</script></main><footer class="w-full bg-surface-container-low mt-auto"><div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl flex flex-col md:flex-row items-center justify-between gap-space-lg text-center md:text-left"><div class="flex flex-col gap-1"><div class="flex items-center justify-center md:justify-start gap-space-sm"><span class="font-title-md text-title-md text-primary font-bold">StockQuick</span><span class="px-space-xs py-0.5 rounded text-[10px] bg-secondary-fixed-dim text-on-secondary-fixed font-bold uppercase tracking-wider">Retail Express</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Herramienta de control ágil de inventario y mostrador para comerciantes de barrio.</p></div><div class="flex items-center flex-wrap justify-center gap-space-lg font-label-md text-label-md text-on-surface-variant"><a class="hover:text-primary transition-colors flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[16px]">support_agent</span>Soporte y WhatsApp</a><a class="hover:text-primary transition-colors flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[16px]">menu_book</span>Guía rápida POS</a><a class="hover:text-primary transition-colors flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[16px]">receipt_long</span>Facturación Local</a></div><div class="font-body-sm text-body-sm text-on-surface-variant">© 2025 StockQuick Inc. Todos los derechos reservados.</div></div></footer></body></html>

@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>StockQuick - Catálogo e inventario digital</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-on-surface":"#eaf1ff","on-secondary-fixed":"#002113","surface-variant":"#d9e3f6","on-primary-fixed":"#002019","on-primary-container":"#83baa9","on-surface":"#121c2a","primary-fixed":"#b6eedc","background":"#f8f9ff","on-tertiary-fixed":"#2a1700","on-error":"#ffffff","primary":"#003329","surface-bright":"#f8f9ff","primary-container":"#114b3e","on-primary-fixed-variant":"#174f42","error":"#ba1a1a","on-tertiary-container":"#f29c06","tertiary-fixed":"#ffddb8","on-tertiary-fixed-variant":"#653e00","on-error-container":"#93000a","on-secondary":"#ffffff","error-container":"#ffdad6","on-secondary-container":"#00714d","secondary-fixed-dim":"#4edea3","on-primary":"#ffffff","inverse-primary":"#9ad2c0","surface-container":"#e6eeff","on-tertiary":"#ffffff","primary-fixed-dim":"#9ad2c0","surface-container-highest":"#d9e3f6","surface-tint":"#326859","outline":"#707975","on-secondary-fixed-variant":"#005236","surface-container-lowest":"#ffffff","inverse-surface":"#27313f","secondary-fixed":"#6ffbbe","tertiary-fixed-dim":"#ffb95f","secondary":"#006c49","surface":"#f8f9ff","secondary-container":"#6cf8bb","surface-container-low":"#eff4ff","surface-dim":"#d0dbed","on-surface-variant":"#404945","tertiary-container":"#5f3a00","surface-container-high":"#dee9fc","on-background":"#121c2a","tertiary":"#412600","outline-variant":"#bfc9c4"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{"space-xs":"0.25rem","gutter-mobile":"0.75rem","margin-mobile":"1rem",gutter:"1.25rem","space-xl":"2.25rem","space-md":"1rem","space-lg":"1.5rem",margin:"2rem","space-sm":"0.5rem"},fontFamily:{"headline-lg-mobile":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"display-mobile":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],display:["Plus Jakarta Sans"],"title-lg":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"]},fontSize:{"headline-lg-mobile":["22px",{lineHeight:"30px",letterSpacing:"-0.01em",fontWeight:"700"}],"title-md":["15px",{lineHeight:"22px",fontWeight:"600"}],"headline-lg":["28px",{lineHeight:"36px",letterSpacing:"-0.02em",fontWeight:"700"}],"display-mobile":["30px",{lineHeight:"38px",letterSpacing:"-0.02em",fontWeight:"800"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.04em",fontWeight:"700"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"600"}],"body-sm":["12px",{lineHeight:"18px",fontWeight:"400"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.02em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"20px",fontWeight:"400"}],"body-lg":["16px",{lineHeight:"24px",fontWeight:"400"}],display:["40px",{lineHeight:"48px",letterSpacing:"-0.03em",fontWeight:"800"}],"title-lg":["17px",{lineHeight:"24px",fontWeight:"600"}],"headline-md":["20px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"600"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-primary-container shadow-[0_1px_8px_rgba(17,75,62,0.12)]"><div class="h-16 w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md min-w-0 flex-shrink-0"><a class="flex items-center gap-space-sm" href="#"><img alt="StockQuick Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U_rrM_6WZaVk7hZ94eO_uvT8IbtLp9XOqSXbDpLioMLsxYNiO4SBUbUD0RTZ0YnYSvQOs3bwN_YBrpHp_yoTS9U5bqWXd-y2-8eG1lMhmAhS9hITkHjEio0793yjq_7sfLKEsAQHZqr_kAnSYvEXMQe-waDQpwzIbsIKBSfekAVwvLUH9WeOw2aD_7JkikN15NtKlGmCaQQqG9pQ6t7ytGDHbbsllYkj4tOpaHNPTyUU1rqzzDejJXzaE"/><span class="font-headline-md text-headline-md text-on-primary tracking-tight font-bold">StockQuick</span></a><div class="hidden xl:flex items-center px-space-sm py-1 rounded-full bg-primary text-on-primary-container font-label-sm text-label-sm"><span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed mr-1.5"></span>Tienda Don Javier - La Esperanza</div></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-primary text-on-primary rounded-lg font-bold"><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-primary-container hover:bg-primary hover:text-on-primary transition-colors rounded-lg" data-path="inicio-catalogo" href="#">Inicio / Catálogo</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-primary-container hover:bg-primary hover:text-on-primary transition-colors rounded-lg" data-path="inventario-rapido" href="#">Inventario Rápido</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-primary-container hover:bg-primary hover:text-on-primary transition-colors rounded-lg" data-path="registrar-producto" href="#">Registrar Producto</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-primary-container hover:bg-primary hover:text-on-primary transition-colors rounded-lg" data-path="atencion-y-pedidos" href="#">Atención y Pedidos</a></nav><div class="flex items-center gap-space-sm sm:gap-space-md flex-shrink-0"><div class="hidden md:flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-primary text-on-primary"><span class="material-symbols-outlined text-secondary-fixed text-[18px]">inventory_2</span><span class="font-label-md text-label-md text-on-primary font-semibold">148 activos</span></div><button aria-label="Notificaciones" class="relative p-space-sm rounded-lg text-on-primary hover:bg-primary transition-colors flex items-center justify-center" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-on-tertiary-container ring-2 ring-primary-container"></span></button><div class="flex items-center gap-space-xs pl-space-xs"><button class="flex items-center gap-space-xs p-1 rounded-full hover:bg-primary transition-colors" type="button"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCHylmBmMGfmtn6y_XT6Si-CY_wrv5WnplGtGfmFovkUT3Lir6EpwaRtmFyT1A3RQjNC4vb5avuRGjcrvuTpXGQKeeO2MDxsKX94SIPZVu6ZwrcFn5kW_bL1wK4WAs1N4Gg9PxPsUe776uWSl0D86_LoG2IndB-UFCLTSsYCHjQ9Px5HoSk5kC26EVGQpqV_QjEBv-j6qSZ3jQrcefZ17SkvVjV8I37jcEshDwjrLqlI2-jPGweT4u"/><span class="material-symbols-outlined text-on-primary text-[18px]">expand_more</span></button></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-140px)]"><div class="flex flex-col w-full">
+<div class="w-full max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-md lg:py-space-xl flex flex-col gap-space-lg">
+<!-- Operational Header & Live Counter Banner -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-lowest shadow-sm p-space-md lg:p-space-lg flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-1 z-10">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center justify-center w-8 h-8 rounded-lg bg-secondary-container text-on-secondary-container">
+<span class="material-symbols-outlined text-[20px]">bolt</span>
+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Mostrador Retail Express</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">Inventario Rápido y Control de Existencias</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">Ajusta stock al instante con un solo toque durante la atención a clientes o prepara tu pedido semanal de reposición.</p>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm z-10">
+<button class="h-11 px-space-md rounded-xl bg-secondary text-on-secondary font-label-lg text-label-lg flex items-center gap-space-xs shadow-sm hover:opacity-95 active:scale-95 transition-all" id="openSupplierModalBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">local_shipping</span>
+<span>Generar Pedido Proveedor</span>
+</button>
+<button class="h-11 px-space-md rounded-xl bg-surface-container-high text-primary font-label-lg text-label-lg flex items-center gap-space-xs hover:bg-surface-variant transition-colors" id="exportCsvBtn" type="button">
+<span class="material-symbols-outlined text-[19px]">download</span>
+<span>Exportar Planilla</span>
+</button>
+</div>
+<!-- Subtle background ambient pill (no borders) -->
+<div class="absolute -right-16 -top-16 w-56 h-56 rounded-full bg-secondary-fixed/20 blur-2xl pointer-events-none"></div>
+</div>
+<!-- 1. PANEL DE CONTROL DE INVENTARIO: KPIs & FILTROS -->
+<section class="flex flex-col gap-space-md">
+<!-- Summary metrics bento row -->
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-gutter-mobile lg:gap-gutter">
+<!-- Metric: Total -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant font-semibold">Catálogo Total</span>
+<span class="w-7 h-7 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">inventory_2</span>
+</span>
+</div>
+<div class="mt-space-sm flex items-baseline gap-space-xs">
+<span class="font-display text-display text-on-surface leading-none" id="stat-total">148</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">ítems</span>
+</div>
+<div class="mt-space-xs flex items-center gap-1 font-body-sm text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span>100% categorizados</span>
+</div>
+</div>
+<!-- Metric: Stock Crítico -->
+<div class="bg-error-container/40 rounded-xl p-space-md shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-error font-bold">Stock Crítico</span>
+<span class="w-7 h-7 rounded-lg bg-error text-on-error flex items-center justify-center animate-pulse">
+<span class="material-symbols-outlined text-[18px]">priority_high</span>
+</span>
+</div>
+<div class="mt-space-sm flex items-baseline gap-space-xs">
+<span class="font-display text-display text-error leading-none" id="stat-critical">12</span>
+<span class="font-label-sm text-label-sm text-error font-semibold">productos</span>
+</div>
+<div class="mt-space-xs font-body-sm text-body-sm text-on-error-container">
+            Requieren reposición inmediata
+          </div>
+</div>
+<!-- Metric: Stock Óptimo -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant font-semibold">Stock Óptimo</span>
+<span class="w-7 h-7 rounded-lg bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</span>
+</div>
+<div class="mt-space-sm flex items-baseline gap-space-xs">
+<span class="font-display text-display text-secondary leading-none" id="stat-optimo">136</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">productos</span>
+</div>
+<div class="mt-space-xs font-body-sm text-body-sm text-on-surface-variant">
+            Capacidad para 5+ días de venta
+          </div>
+</div>
+<!-- Metric: Agotados -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant font-semibold">Agotados</span>
+<span class="w-7 h-7 rounded-lg bg-surface-container text-on-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">block</span>
+</span>
+</div>
+<div class="mt-space-sm flex items-baseline gap-space-xs">
+<span class="font-display text-display text-on-surface-variant leading-none" id="stat-agotados">0</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">ítems</span>
+</div>
+<div class="mt-space-xs font-body-sm text-body-sm text-secondary font-medium">
+            Mostrador sin quiebres hoy
+          </div>
+</div>
+</div>
+<!-- Fast filter bar and quick search -->
+<div class="bg-surface-container-lowest rounded-xl p-space-sm lg:p-space-md shadow-sm flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-space-sm">
+<!-- Filter Tabs -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-1 lg:pb-0" id="filterButtonGroup">
+<button class="filter-chip active-filter px-space-md py-2 rounded-lg font-label-md text-label-md bg-primary text-on-primary transition-all whitespace-nowrap flex items-center gap-1.5 shadow-sm" data-filter="all" type="button">
+<span>Todos</span>
+<span class="px-1.5 py-0.2 rounded-full bg-surface-container-lowest text-primary font-bold text-[11px]">148</span>
+</button>
+<button class="filter-chip px-space-md py-2 rounded-lg font-label-md text-label-md bg-surface-container text-on-surface-variant hover:bg-surface-variant transition-all whitespace-nowrap flex items-center gap-1.5" data-filter="critical" type="button">
+<span class="w-2 h-2 rounded-full bg-error"></span>
+<span>Stock Crítico</span>
+<span class="px-1.5 py-0.2 rounded-full bg-error-container text-on-error-container font-bold text-[11px]">12</span>
+</button>
+<button class="filter-chip px-space-md py-2 rounded-lg font-label-md text-label-md bg-surface-container text-on-surface-variant hover:bg-surface-variant transition-all whitespace-nowrap flex items-center gap-1.5" data-filter="reorder" type="button">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container"></span>
+<span>Próximos a Reorden</span>
+<span class="px-1.5 py-0.2 rounded-full bg-tertiary-fixed text-on-tertiary-fixed-variant font-bold text-[11px]">8</span>
+</button>
+</div>
+<!-- Quick Search & Barcode -->
+<div class="flex items-center gap-space-xs flex-1 max-w-md ml-auto">
+<div class="relative w-full">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span>
+<input class="w-full h-11 pl-10 pr-10 rounded-xl bg-surface-container-low font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest shadow-sm" id="quickSearchInput" placeholder="Buscar por nombre, marca o SKU..." type="text"/>
+<button class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-primary" id="clearSearchBtn" type="button">
+<span class="material-symbols-outlined text-[18px]">cancel</span>
+</button>
+</div>
+<button class="h-11 w-11 flex-shrink-0 rounded-xl bg-surface-container text-primary flex items-center justify-center hover:bg-secondary-container hover:text-on-secondary-container transition-colors" title="Escanear con cámara / lector óptico" type="button">
+<span class="material-symbols-outlined text-[22px]">barcode_scanner</span>
+</button>
+</div>
+</div>
+</section>
+<!-- 2. TABLA INTERACTIVA DE GESTIÓN RÁPIDA -->
+<section class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden flex flex-col">
+<div class="px-space-md lg:px-space-lg py-space-md bg-surface-container-lowest flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="font-title-lg text-title-lg text-primary font-bold">Listado de Existencias en Mostrador</span>
+<span class="px-space-xs py-0.5 rounded text-[11px] font-bold bg-secondary-fixed text-on-secondary-fixed uppercase">Edición en Línea Activa</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Los cambios de stock y precio guardan al instante</span>
+</div>
+</div>
+<!-- Table Container -->
+<div class="w-full overflow-x-auto">
+<table class="w-full text-left" id="inventoryTable">
+<thead>
+<tr class="bg-surface-container-low font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">
+<th class="py-3 px-space-md lg:px-space-lg">Código / SKU</th>
+<th class="py-3 px-space-md">Producto</th>
+<th class="py-3 px-space-md hidden md:table-cell">Categoría</th>
+<th class="py-3 px-space-md text-right">Precio Actual</th>
+<th class="py-3 px-space-md text-center">Stock Actual (1-Clic)</th>
+<th class="py-3 px-space-md text-center">Alerta</th>
+<th class="py-3 px-space-md lg:px-space-lg text-right">Acciones</th>
+</tr>
+</thead>
+<tbody class="font-body-md text-body-md text-on-surface" id="inventoryTableBody">
+<!-- Row 1: Leche Colanta (Critical) -->
+<tr class="hover:bg-surface-container-low/60 transition-colors" data-id="1" data-provider="Colanta" data-status="critical">
+<td class="py-3.5 px-space-md lg:px-space-lg font-label-sm text-label-sm text-on-surface-variant">
+<span class="font-mono bg-surface-container px-2 py-1 rounded">COL-7702</span>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg overflow-hidden bg-surface-container flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="A clean product shot of a 1-liter pouch of fresh whole milk on a bright clean grocery shelf, soft ambient studio lighting, vibrant colors matching StockQuick green palette, high key commercial photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0OtKPw6Mwbdx0khVhE6h2rmDGe0e_9bdBcp70tabyK4Unz_qPDgKjgfBbgATW5P57to3tZasxn4SNdgvyUziME3EfrIP3mBK8ozGrlGXCJq_OFyX0D1BgbiaynKj9-O03kvBWm-neZ3ELjTRggV8WLa-DL-Dx-8gtTpOTRDMjVUwF257FRqBm12bH3ONpaGv-GY6wXruWBbgPza_r3uCXebp_PQhyuYWEB1343ua2L-4c3OZcenvM"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md font-bold text-on-surface truncate">Leche Entera Colanta 1000ml</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Proveedor: Colanta Lacteos</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md hidden md:table-cell">
+<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-surface-container text-on-surface-variant">Lácteos</span>
+</td>
+<td class="py-3.5 px-space-md text-right">
+<div class="inline-flex items-center justify-end">
+<span class="font-body-sm text-body-sm text-on-surface-variant mr-1">$</span>
+<input class="price-input w-20 text-right font-title-md text-title-md font-bold text-on-surface bg-surface-container-low hover:bg-surface-container focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary rounded px-1.5 py-1 transition-all" type="text" value="4.200"/>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<div class="inline-flex items-center bg-surface-container-low rounded-xl p-1 shadow-sm">
+<button aria-label="Restar 1" class="btn-step-minus w-8 h-8 rounded-lg bg-surface-container-lowest text-primary hover:bg-error hover:text-on-error flex items-center justify-center transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<input class="stock-input w-12 text-center font-title-md text-title-md font-bold text-error bg-transparent focus:outline-none" min="0" type="number" value="3"/>
+<button aria-label="Sumar 1" class="btn-step-plus w-8 h-8 rounded-lg bg-surface-container-lowest text-primary hover:bg-secondary hover:text-on-secondary flex items-center justify-center transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<span class="badge-status inline-flex items-center gap-1 px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-error-container text-on-error-container font-bold">
+<span class="material-symbols-outlined text-[13px]">warning</span>
+                  Crítico (Mín 10)
+                </span>
+</td>
+<td class="py-3.5 px-space-md lg:px-space-lg text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Historial rápido" type="button">
+<span class="material-symbols-outlined text-[18px]">history</span>
+</button>
+<button class="btn-quick-order p-2 rounded-lg bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary hover:text-on-secondary transition-colors" data-sku="COL-7702" title="Agregar a orden de compra" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2: Gaseosa Postobón Manzana (Reorder) -->
+<tr class="hover:bg-surface-container-low/60 transition-colors" data-id="2" data-provider="Postobón" data-status="reorder">
+<td class="py-3.5 px-space-md lg:px-space-lg font-label-sm text-label-sm text-on-surface-variant">
+<span class="font-mono bg-surface-container px-2 py-1 rounded">POS-3104</span>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg overflow-hidden bg-surface-container flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Close up of a chilled pink apple soda bottle with refreshing condensation beads, clean convenience store background, retail display setting, bright natural light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSJUVYY0AHAgStWOXg8FHOE41op4uxoOwF5zQnbg-qOx8ljoBl2uTtKtlTTmZVlozY2t7win_TibW14Jt7HAs94RVlLOmbWsA0qmYxLMa8ygrXvHwiQ0_RwpxDimoPZzCHua4e1cAZCvmw8gzo_DhN0M0mjxg_f969zDKlpA3bs0iOIP__dUOaNjF8BitUuJeAlChhmFlyBBHzb7fKR3RNWjO5_NYFmVEmhedRoPXlBqycadAtUmiV"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md font-bold text-on-surface truncate">Postobón Manzana Pet 1.5L</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Proveedor: Postobón S.A.</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md hidden md:table-cell">
+<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-surface-container text-on-surface-variant">Bebidas</span>
+</td>
+<td class="py-3.5 px-space-md text-right">
+<div class="inline-flex items-center justify-end">
+<span class="font-body-sm text-body-sm text-on-surface-variant mr-1">$</span>
+<input class="price-input w-20 text-right font-title-md text-title-md font-bold text-on-surface bg-surface-container-low hover:bg-surface-container focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary rounded px-1.5 py-1 transition-all" type="text" value="3.800"/>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<div class="inline-flex items-center bg-surface-container-low rounded-xl p-1 shadow-sm">
+<button class="btn-step-minus w-8 h-8 rounded-lg bg-surface-container-lowest text-primary hover:bg-error hover:text-on-error flex items-center justify-center transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<input class="stock-input w-12 text-center font-title-md text-title-md font-bold text-tertiary-container bg-transparent focus:outline-none" min="0" type="number" value="7"/>
+<button class="btn-step-plus w-8 h-8 rounded-lg bg-surface-container-lowest text-primary hover:bg-secondary hover:text-on-secondary flex items-center justify-center transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<span class="badge-status inline-flex items-center gap-1 px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed-variant font-bold">
+<span class="material-symbols-outlined text-[13px]">autorenew</span>
+                  Reorden (Mín 8)
+                </span>
+</td>
+<td class="py-3.5 px-space-md lg:px-space-lg text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Historial rápido" type="button">
+<span class="material-symbols-outlined text-[18px]">history</span>
+</button>
+<button class="btn-quick-order p-2 rounded-lg bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary hover:text-on-secondary transition-colors" data-sku="POS-3104" title="Agregar a orden de compra" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3: Café Nescafé Tradición (Optimal) -->
+<tr class="hover:bg-surface-container-low/60 transition-colors" data-id="3" data-provider="Nestlé" data-status="optimal">
+<td class="py-3.5 px-space-md lg:px-space-lg font-label-sm text-label-sm text-on-surface-variant">
+<span class="font-mono bg-surface-container px-2 py-1 rounded">NES-8820</span>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg overflow-hidden bg-surface-container flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Classic glass jar of rich instant coffee with red lid on neat wooden grocery shelf, warm soft sunlight, micro-retail display, sharp high resolution" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKihNA8L_hSL0q-N7cDYydqDRaGGH4AwbahGJ8S3yrCIny4CDTF37kyGwpctmcPExWeZF86Kn7vmw6JdSZTLZo_Tk-VocVj8qcDMaKDPwCTrkD7Js1Agm2XpfBD7o7gBt5ZaiJP3wHVfWo8rBmhOwKKKV7-IE9Jqh4lAcR6T6JPrNLO4CFDiERv2w1WG65AAk-SuCCpESLWrreDfxurGtAdgVSlfhzJHeHl2ILVUcbR1UlKlGPGNrM"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md font-bold text-on-surface truncate">Nescafé Tradición Frasco 85g</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Proveedor: Nestlé Colombia</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md hidden md:table-cell">
+<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-surface-container text-on-surface-variant">Despensa</span>
+</td>
+<td class="py-3.5 px-space-md text-right">
+<div class="inline-flex items-center justify-end">
+<span class="font-body-sm text-body-sm text-on-surface-variant mr-1">$</span>
+<input class="price-input w-20 text-right font-title-md text-title-md font-bold text-on-surface bg-surface-container-low hover:bg-surface-container focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary rounded px-1.5 py-1 transition-all" type="text" value="11.500"/>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<div class="inline-flex items-center bg-surface-container-low rounded-xl p-1 shadow-sm">
+<button class="btn-step-minus w-8 h-8 rounded-lg bg-surface-container-lowest text-primary hover:bg-error hover:text-on-error flex items-center justify-center transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<input class="stock-input w-12 text-center font-title-md text-title-md font-bold text-secondary bg-transparent focus:outline-none" min="0" type="number" value="24"/>
+<button class="btn-step-plus w-8 h-8 rounded-lg bg-surface-container-lowest text-primary hover:bg-secondary hover:text-on-secondary flex items-center justify-center transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<span class="badge-status inline-flex items-center gap-1 px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed font-bold">
+<span class="material-symbols-outlined text-[13px]">check_circle</span>
+                  Óptimo
+                </span>
+</td>
+<td class="py-3.5 px-space-md lg:px-space-lg text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Historial rápido" type="button">
+<span class="material-symbols-outlined text-[18px]">history</span>
+</button>
+<button class="btn-quick-order p-2 rounded-lg bg-surface-container text-on-surface-variant hover:bg-secondary hover:text-on-secondary transition-colors" data-sku="NES-8820" title="Agregar a orden de compra" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 4: Pan Tajado Bimbo (Critical) -->
+<tr class="hover:bg-surface-container-low/60 transition-colors" data-id="4" data-provider="Bimbo" data-status="critical">
+<td class="py-3.5 px-space-md lg:px-space-lg font-label-sm text-label-sm text-on-surface-variant">
+<span class="font-mono bg-surface-container px-2 py-1 rounded">BIM-0192</span>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg overflow-hidden bg-surface-container flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Packaged white sliced bread in classic clean grocery packaging resting on a bright counter, bakery fresh concept, commercial market photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDESfCX-DPPbszjmCfU68pwxnwAVU0lYqL47IuwZaDt6cRC3J6TSvBtnqkSGXACZYRauQpgihemcZZnN-3lZUwI3yPq-4uPaGF3T2Wi2UIFHsPeQ1n8r7BE-rtAY_D2QIFAodJ_uWmzwoGJUvIq2drhr7JgD5-qv9blJITwcx169XC-6p0FxiV9Y9A6qVY0wwPrQkKQgQr8_Szfo4wf0AMeB4cfdeCsFvxz4EW0U8_EozJ2FPHoIz6j"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md font-bold text-on-surface truncate">Pan Blanco Tajado Bimbo 450g</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Proveedor: Bimbo de Colombia</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md hidden md:table-cell">
+<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-surface-container text-on-surface-variant">Panadería</span>
+</td>
+<td class="py-3.5 px-space-md text-right">
+<div class="inline-flex items-center justify-end">
+<span class="font-body-sm text-body-sm text-on-surface-variant mr-1">$</span>
+<input class="price-input w-20 text-right font-title-md text-title-md font-bold text-on-surface bg-surface-container-low hover:bg-surface-container focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary rounded px-1.5 py-1 transition-all" type="text" value="6.100"/>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<div class="inline-flex items-center bg-surface-container-low rounded-xl p-1 shadow-sm">
+<button class="btn-step-minus w-8 h-8 rounded-lg bg-surface-container-lowest text-primary hover:bg-error hover:text-on-error flex items-center justify-center transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<input class="stock-input w-12 text-center font-title-md text-title-md font-bold text-error bg-transparent focus:outline-none" min="0" type="number" value="2"/>
+<button class="btn-step-plus w-8 h-8 rounded-lg bg-surface-container-lowest text-primary hover:bg-secondary hover:text-on-secondary flex items-center justify-center transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<span class="badge-status inline-flex items-center gap-1 px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-error-container text-on-error-container font-bold">
+<span class="material-symbols-outlined text-[13px]">warning</span>
+                  Crítico (Mín 6)
+                </span>
+</td>
+<td class="py-3.5 px-space-md lg:px-space-lg text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Historial rápido" type="button">
+<span class="material-symbols-outlined text-[18px]">history</span>
+</button>
+<button class="btn-quick-order p-2 rounded-lg bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary hover:text-on-secondary transition-colors" data-sku="BIM-0192" title="Agregar a orden de compra" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 5: Arroz Diana Premium (Optimal) -->
+<tr class="hover:bg-surface-container-low/60 transition-colors" data-id="5" data-provider="Diana" data-status="optimal">
+<td class="py-3.5 px-space-md lg:px-space-lg font-label-sm text-label-sm text-on-surface-variant">
+<span class="font-mono bg-surface-container px-2 py-1 rounded">DIA-5011</span>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg overflow-hidden bg-surface-container flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Clear packaging bag of premium white rice grains neatly placed on a modern corner grocery shelf, studio commercial quality, natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWicxmY3Gjsbq4Ip8XvCRDU_Y1FmzZG252Kl_epRJ56gEuDgcb-ZVDmfdOArQ1l0RYUWvP3VNcdbnRa4mlt5kpMEuZnNiymf-L3C64CHwp_ZgpxopybMwxGBh_3kuDEwwqEJ1RFQUCW2Xp155ErOikK1fiaI2SZzWAC-3nKwlCYbvizUza45ac7vlZvjT0zZGofd2WwqJQyb7fOWjulABIi56uIWowRaSS2smudhFCQowPwKqKreaT"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md font-bold text-on-surface truncate">Arroz Diana Vitamor 1000g</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Proveedor: Dicorp Colombia</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md hidden md:table-cell">
+<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-surface-container text-on-surface-variant">Granos</span>
+</td>
+<td class="py-3.5 px-space-md text-right">
+<div class="inline-flex items-center justify-end">
+<span class="font-body-sm text-body-sm text-on-surface-variant mr-1">$</span>
+<input class="price-input w-20 text-right font-title-md text-title-md font-bold text-on-surface bg-surface-container-low hover:bg-surface-container focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary rounded px-1.5 py-1 transition-all" type="text" value="4.800"/>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<div class="inline-flex items-center bg-surface-container-low rounded-xl p-1 shadow-sm">
+<button class="btn-step-minus w-8 h-8 rounded-lg bg-surface-container-lowest text-primary hover:bg-error hover:text-on-error flex items-center justify-center transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<input class="stock-input w-12 text-center font-title-md text-title-md font-bold text-secondary bg-transparent focus:outline-none" min="0" type="number" value="42"/>
+<button class="btn-step-plus w-8 h-8 rounded-lg bg-surface-container-lowest text-primary hover:bg-secondary hover:text-on-secondary flex items-center justify-center transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<span class="badge-status inline-flex items-center gap-1 px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed font-bold">
+<span class="material-symbols-outlined text-[13px]">check_circle</span>
+                  Óptimo
+                </span>
+</td>
+<td class="py-3.5 px-space-md lg:px-space-lg text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Historial rápido" type="button">
+<span class="material-symbols-outlined text-[18px]">history</span>
+</button>
+<button class="btn-quick-order p-2 rounded-lg bg-surface-container text-on-surface-variant hover:bg-secondary hover:text-on-secondary transition-colors" data-sku="DIA-5011" title="Agregar a orden de compra" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 6: Aceite Premier 1000ml (Reorder) -->
+<tr class="hover:bg-surface-container-low/60 transition-colors" data-id="6" data-provider="Premier" data-status="reorder">
+<td class="py-3.5 px-space-md lg:px-space-lg font-label-sm text-label-sm text-on-surface-variant">
+<span class="font-mono bg-surface-container px-2 py-1 rounded">PRE-1903</span>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg overflow-hidden bg-surface-container flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Clear bottle of pure cooking sunflower oil on a grocery counter, clean commercial lighting, warm golden tones matching retail colors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSCjRrvv32eznGEq7xJCSgjyoeNYmnCe6CR_vNw0-PA38kiDTGuNT_59D_Wvw25JXKS-jUAQZFGUJpI2iLFykup-jPmYZW_VQMxj5aIP4JiOJ8VVK2HR6v4-3KijI6Gjl5mR1wEOgGDplOxIG7Xuf9CCZAZgcHqL8kMuTie70pU-hWyW_7yfpJAgL32T9b61bAg8hP072BiexthbXIlk1Ld8ZGUBwggQ7jSrgT8aHygAuTgRjlrE6p"/>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md font-bold text-on-surface truncate">Aceite Vegetal Premier 1000ml</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Proveedor: Alianza Team</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md hidden md:table-cell">
+<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-surface-container text-on-surface-variant">Despensa</span>
+</td>
+<td class="py-3.5 px-space-md text-right">
+<div class="inline-flex items-center justify-end">
+<span class="font-body-sm text-body-sm text-on-surface-variant mr-1">$</span>
+<input class="price-input w-20 text-right font-title-md text-title-md font-bold text-on-surface bg-surface-container-low hover:bg-surface-container focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary rounded px-1.5 py-1 transition-all" type="text" value="12.200"/>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<div class="inline-flex items-center bg-surface-container-low rounded-xl p-1 shadow-sm">
+<button class="btn-step-minus w-8 h-8 rounded-lg bg-surface-container-lowest text-primary hover:bg-error hover:text-on-error flex items-center justify-center transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<input class="stock-input w-12 text-center font-title-md text-title-md font-bold text-tertiary-container bg-transparent focus:outline-none" min="0" type="number" value="6"/>
+<button class="btn-step-plus w-8 h-8 rounded-lg bg-surface-container-lowest text-primary hover:bg-secondary hover:text-on-secondary flex items-center justify-center transition-colors active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center">
+<span class="badge-status inline-flex items-center gap-1 px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed-variant font-bold">
+<span class="material-symbols-outlined text-[13px]">autorenew</span>
+                  Reorden (Mín 8)
+                </span>
+</td>
+<td class="py-3.5 px-space-md lg:px-space-lg text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-2 rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors" title="Historial rápido" type="button">
+<span class="material-symbols-outlined text-[18px]">history</span>
+</button>
+<button class="btn-quick-order p-2 rounded-lg bg-secondary-fixed text-on-secondary-fixed hover:bg-secondary hover:text-on-secondary transition-colors" data-sku="PRE-1903" title="Agregar a orden de compra" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Live Save Status Toast Footer -->
+<div class="px-space-md py-space-sm bg-surface-container-low flex flex-col sm:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed-dim animate-ping"></span>
+<span class="font-medium" id="syncStatusText">Sincronización en vivo con el lector POS activa.</span>
+</div>
+<div class="flex items-center gap-space-md">
+<span>Mostrando 6 de 148 referencias rápidas</span>
+<button class="hover:text-primary flex items-center gap-1" id="refreshStockBtn" type="button">
+<span class="material-symbols-outlined text-[16px]">sync</span>
+            Refrescar
+          </button>
+</div>
+</div>
+</section>
+<!-- 3. SECCIÓN DE SUGERENCIAS DE REABASTECIMIENTO PARA EL TENDERO -->
+<section class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-md text-headline-md text-primary font-bold">Sugerencias Inteligentes de Reabastecimiento</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Basado en tus ventas de los últimos 7 días y la frecuencia de visita de los distribuidores.</p>
+</div>
+<div class="hidden sm:flex items-center gap-1 px-space-sm py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[16px]">trending_up</span>
+          Cálculo Semanal Predictivo
+        </div>
+</div>
+<!-- Main Advisory Card (High Impact Banner) -->
+<div class="relative overflow-hidden rounded-xl bg-gradient-to-r from-primary-container via-primary to-primary-container p-space-md lg:p-space-lg text-on-primary shadow-md flex flex-col md:flex-row md:items-center justify-between gap-space-lg">
+<div class="flex items-start gap-space-md z-10">
+<div class="w-12 h-12 rounded-xl bg-secondary-container text-on-secondary-container flex items-center justify-center flex-shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[28px]">notification_important</span>
+</div>
+<div class="flex flex-col gap-1 max-w-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed font-bold">Aviso para Don Javier</span>
+<h3 class="font-title-lg text-title-lg font-bold text-white">Productos que debes pedir esta semana según tus ventas recientes</h3>
+<p class="font-body-md text-body-md text-on-primary-container">
+              Se detectó un aumento de rotación del <strong class="text-white">+28% en Lácteos y Refrescos</strong>. Si no pides hoy a Colanta y Postobón, te quedarás sin stock el viernes al mediodía.
+            </p>
+</div>
+</div>
+<div class="flex flex-wrap sm:flex-nowrap items-center gap-space-sm z-10 flex-shrink-0">
+<button class="h-11 px-space-lg rounded-xl bg-secondary-fixed text-on-secondary-fixed font-label-lg text-label-lg font-bold hover:bg-secondary-fixed-dim transition-all shadow-sm flex items-center gap-space-xs" id="addAllSuggestedBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">playlist_add_check</span>
+<span>Cargar Todo al Pedido</span>
+</button>
+</div>
+<!-- Ambient decorative shapes -->
+<div class="absolute -right-8 -bottom-8 w-40 h-40 rounded-full bg-secondary-fixed/10 blur-xl pointer-events-none"></div>
+</div>
+<!-- Replenishment Product Cards Grid (Colanta, Postobón, Nestlé) -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter-mobile lg:gap-gutter">
+<!-- Suggestion Card 1: Colanta -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-surface-container text-primary font-bold">Distribuidor: Colanta</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-error font-bold">
+<span class="material-symbols-outlined text-[14px]">timer</span>
+                Pasa Mañana 9:00 AM
+              </span>
+</div>
+<div class="flex items-center gap-space-sm mt-1">
+<div class="w-14 h-14 rounded-lg bg-surface-container-low overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Close up commercial photo of milk cartons stacked on a clean store shelf, dairy products section, high fidelity, modern corner store lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPy7zusF050gxZgHH6NZSFoXAYPCnbJXFepQ8lGJnPcO00L-JH6ICj-GWVI9cTP881LY-EbrJTdB8onJEOfT1OC_VDgeACLpUpfuuXvDi2-U2AwaM_Cw1llPpUmwr8yZFyBZpscdPQf4BF8N-lWnrlQLxgO9MzSMk_2wtR9N0k2oknYh6nDEoDiFRR7wnWuM9VBWj8T9E2oC1v8IhooVxXYVjyC5zDexIALpCd-TQtBcKQIMDerrxK"/>
+</div>
+<div class="flex flex-col min-w-0">
+<h4 class="font-title-md text-title-md font-bold text-on-surface truncate">Leche Entera 1000ml</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Stock: 3 uds • Venta prom: 18 uds/día</span>
+</div>
+</div>
+<!-- Mini chart / Sparkline bar (inline SVG under 2KB) -->
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-1">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Consumo semanal proyectado</span>
+<span class="font-bold text-primary">120 uds</span>
+</div>
+<svg aria-hidden="true" class="w-full h-2 text-primary rounded-full overflow-hidden bg-surface-variant" viewbox="0 0 100 8">
+<rect fill="currentColor" height="8" rx="4" width="85" x="0" y="0"></rect>
+</svg>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between bg-surface-container-low/50 -mx-space-md -mb-space-md p-space-md rounded-b-xl">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Sugerido a pedir</span>
+<span class="font-title-md text-title-md text-primary font-extrabold">2 Cajas (24 Uds)</span>
+</div>
+<button class="single-order-btn px-space-md py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-colors" data-item="Leche Entera 1000ml" data-provider="Colanta" data-qty="24" type="button">
+              Pedir
+            </button>
+</div>
+</div>
+<!-- Suggestion Card 2: Postobón -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-surface-container text-primary font-bold">Distribuidor: Postobón</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-on-tertiary-container font-bold">
+<span class="material-symbols-outlined text-[14px]">calendar_today</span>
+                Pasa Jueves 2:00 PM
+              </span>
+</div>
+<div class="flex items-center gap-space-sm mt-1">
+<div class="w-14 h-14 rounded-lg bg-surface-container-low overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Bottles of sweet refreshing soda in clean grocery crates ready for delivery in retail market, crisp focus, clear store presentation" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcFXAevDO58uvfY6rwEXiqeMXsmoNSSrNNeYemfoSKXD7-8hvYWixiv6ye5uT9YFkda0ff0WBYI-oRa_diarBqxVAxZUWuk2nEFhlfZ8mZRaB2X1-GA0lzlESewE0FrPds-NhmhDBYuzBC_8QvfkPVwBkwem1nUl7u__2veqRNPMciWKI6elDnCxD0HGdgvppIbufxilKaH4PVSd-G8EKm9PEG7GPMrHqIt0yxJvGxrPEBBpyq9g_i"/>
+</div>
+<div class="flex flex-col min-w-0">
+<h4 class="font-title-md text-title-md font-bold text-on-surface truncate">Postobón Manzana Pet 1.5L</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Stock: 7 uds • Venta fin de semana alta</span>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-1">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Agotamiento previsto</span>
+<span class="font-bold text-error">En 2 días</span>
+</div>
+<svg aria-hidden="true" class="w-full h-2 text-on-tertiary-container rounded-full overflow-hidden bg-surface-variant" viewbox="0 0 100 8">
+<rect fill="currentColor" height="8" rx="4" width="70" x="0" y="0"></rect>
+</svg>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between bg-surface-container-low/50 -mx-space-md -mb-space-md p-space-md rounded-b-xl">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Sugerido a pedir</span>
+<span class="font-title-md text-title-md text-primary font-extrabold">3 Pacas (18 Uds)</span>
+</div>
+<button class="single-order-btn px-space-md py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-colors" data-item="Postobón Manzana Pet 1.5L" data-provider="Postobón" data-qty="18" type="button">
+              Pedir
+            </button>
+</div>
+</div>
+<!-- Suggestion Card 3: Nestlé -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2.5 py-1 rounded-full font-label-sm text-label-sm bg-surface-container text-primary font-bold">Distribuidor: Nestlé</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary font-bold">
+<span class="material-symbols-outlined text-[14px]">calendar_today</span>
+                Pasa Viernes 11:00 AM
+              </span>
+</div>
+<div class="flex items-center gap-space-sm mt-1">
+<div class="w-14 h-14 rounded-lg bg-surface-container-low overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Assorted confectionery and chocolate bars from Nestle displayed in organized grocery racks, clean commercial micro-retail visual" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqdy44f8sAkmiyJjOxZdDpOJ0pv3BAHHxoapo9ZADLE8u4C95cWE1rrw64HRBOK9QhcrEEJTY0dkO8bbMPXoCS7gDS7fEAFDIffQ2jDtH-RYsz7RrvRckSGTNkY1gWpQJ4NqN_reshZ6D9AZqos3yoy3zbTgqzqPXhYWCDSSD4tfS2f24-oZdVuFWANwE6w_weCFTm1mLIBO_kIqGCnqydWUp2XB2mezl_coPFBcozzR5zLbVjsHJj"/>
+</div>
+<div class="flex flex-col min-w-0">
+<h4 class="font-title-md text-title-md font-bold text-on-surface truncate">Milo Polvo Doypack 500g</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Stock: 4 uds • Alta demanda escolar</span>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-col gap-1">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Rentabilidad promedio</span>
+<span class="font-bold text-secondary">22% Margen</span>
+</div>
+<svg aria-hidden="true" class="w-full h-2 text-secondary rounded-full overflow-hidden bg-surface-variant" viewbox="0 0 100 8">
+<rect fill="currentColor" height="8" rx="4" width="55" x="0" y="0"></rect>
+</svg>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center justify-between bg-surface-container-low/50 -mx-space-md -mb-space-md p-space-md rounded-b-xl">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Sugerido a pedir</span>
+<span class="font-title-md text-title-md text-primary font-extrabold">1 Display (12 Uds)</span>
+</div>
+<button class="single-order-btn px-space-md py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md transition-colors" data-item="Milo Polvo Doypack 500g" data-provider="Nestlé" data-qty="12" type="button">
+              Pedir
+            </button>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- FLOATING MODAL: RESUMEN DE PEDIDO A PROVEEDORES (Colanta, Postobón, Nestlé) -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/50 backdrop-blur-sm hidden flex items-center justify-center p-margin-mobile" id="supplierModal">
+<div class="bg-surface-container-lowest rounded-xl max-w-xl w-full p-space-lg shadow-xl flex flex-col gap-space-md relative max-h-[90vh] overflow-y-auto">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">receipt_long</span>
+</div>
+<div>
+<h3 class="font-title-lg text-title-lg text-primary font-bold">Resumen de Pedidos a Distribuidores</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Tienda Don Javier • Envío vía WhatsApp oficial</span>
+</div>
+</div>
+<button class="w-8 h-8 rounded-lg text-on-surface-variant hover:bg-surface-container flex items-center justify-center" id="closeSupplierModalBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<div class="flex flex-col gap-space-sm" id="modalProviderList">
+<!-- Colanta Group -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<strong class="font-title-md text-title-md text-primary">Colanta Lácteos</strong>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Preventista: Andrés M.</span>
+</div>
+<div class="font-body-md text-body-md text-on-surface pl-4 flex flex-col gap-1">
+<div class="flex justify-between">
+<span>• Leche Entera 1000ml</span>
+<span class="font-bold">2 Cajas (24 Uds)</span>
+</div>
+</div>
+<div class="mt-2 flex items-center justify-end gap-2">
+<a class="px-3 py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm flex items-center gap-1 hover:bg-primary-container" href="https://wa.me/?text=Hola%20Colanta%2C%20Don%20Javier%20solicita%3A%202%20Cajas%20Leche%20Entera%201000ml" target="_blank">
+<span class="material-symbols-outlined text-[16px]">send</span>
+              Enviar Pedido por WhatsApp
+            </a>
+</div>
+</div>
+<!-- Postobón Group -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-on-tertiary-container"></span>
+<strong class="font-title-md text-title-md text-primary">Postobón S.A.</strong>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ruta 14 - Martes / Jueves</span>
+</div>
+<div class="font-body-md text-body-md text-on-surface pl-4 flex flex-col gap-1">
+<div class="flex justify-between">
+<span>• Postobón Manzana Pet 1.5L</span>
+<span class="font-bold">3 Pacas (18 Uds)</span>
+</div>
+</div>
+<div class="mt-2 flex items-center justify-end gap-2">
+<a class="px-3 py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm flex items-center gap-1 hover:bg-primary-container" href="https://wa.me/?text=Hola%20Postobon%2C%20Don%20Javier%20solicita%3A%203%20Pacas%20Manzana%201.5L" target="_blank">
+<span class="material-symbols-outlined text-[16px]">send</span>
+              Enviar Pedido por WhatsApp
+            </a>
+</div>
+</div>
+<!-- Nestlé Group -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container"></span>
+<strong class="font-title-md text-title-md text-primary">Nestlé Colombia</strong>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Preventista: Carlos G.</span>
+</div>
+<div class="font-body-md text-body-md text-on-surface pl-4 flex flex-col gap-1">
+<div class="flex justify-between">
+<span>• Milo Polvo Doypack 500g</span>
+<span class="font-bold">1 Display (12 Uds)</span>
+</div>
+</div>
+<div class="mt-2 flex items-center justify-end gap-2">
+<a class="px-3 py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm flex items-center gap-1 hover:bg-primary-container" href="https://wa.me/?text=Hola%20Nestle%2C%20Don%20Javier%20solicita%3A%201%20Display%20Milo%20500g" target="_blank">
+<span class="material-symbols-outlined text-[16px]">send</span>
+              Enviar Pedido por WhatsApp
+            </a>
+</div>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<button class="px-space-md py-2 rounded-xl bg-surface-container text-primary font-label-md text-label-md flex items-center gap-1.5 hover:bg-surface-variant" id="downloadPdfOrderBtn" type="button">
+<span class="material-symbols-outlined text-[18px]">print</span>
+          Imprimir Copia Física
+        </button>
+<button class="px-space-lg py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container" id="closeModalBottomBtn" type="button">
+          Listo
+        </button>
+</div>
+</div>
+</div>
+<!-- Micro-interaction Toast for feedback -->
+<div class="fixed bottom-6 right-6 z-50 bg-primary text-on-primary px-space-md py-3 rounded-xl shadow-xl flex items-center gap-space-sm transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none" id="quickToast">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]" id="toastIcon">check_circle</span>
+<span class="font-label-md text-label-md" id="toastMessage">Operación realizada con éxito</span>
+</div>
+</div>
+<!-- Vanilla Interactive Scripts for In-line updates and quick table workflows -->
+<script>
+  (function initStockQuickEngine() {
+    const tableBody = document.getElementById('inventoryTableBody');
+    const syncStatusText = document.getElementById('syncStatusText');
+    const toast = document.getElementById('quickToast');
+    const toastMessage = document.getElementById('toastMessage');
+    const toastIcon = document.getElementById('toastIcon');
+
+    function showToast(msg, icon = 'check_circle') {
+      if (!toast) return;
+      toastMessage.textContent = msg;
+      toastIcon.textContent = icon;
+      toast.classList.remove('translate-y-24', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('translate-y-0', 'opacity-100');
+        toast.classList.add('translate-y-24', 'opacity-0');
+      }, 2600);
+    }
+
+    function indicateLiveSync(productName, val, type = 'stock') {
+      if (!syncStatusText) return;
+      const original = syncStatusText.textContent;
+      syncStatusText.textContent = `Guardado: ${productName} ahora tiene ${type === 'stock' ? val + ' uds' : '$' + val}`;
+      syncStatusText.classList.add('text-secondary', 'font-bold');
+      setTimeout(() => {
+        syncStatusText.textContent = "Sincronización en vivo con el lector POS activa.";
+        syncStatusText.classList.remove('text-secondary', 'font-bold');
+      }, 3500);
+    }
+
+    // 1-Click Steppers logic
+    if (tableBody) {
+      tableBody.addEventListener('click', (e) => {
+        const minusBtn = e.target.closest('.btn-step-minus');
+        const plusBtn = e.target.closest('.btn-step-plus');
+        const quickOrderBtn = e.target.closest('.btn-quick-order');
+
+        if (minusBtn || plusBtn) {
+          const row = (minusBtn || plusBtn).closest('tr');
+          const input = row.querySelector('.stock-input');
+          const productName = row.querySelector('.truncate')?.textContent || 'Producto';
+          let currentVal = parseInt(input.value, 10) || 0;
+
+          if (minusBtn) {
+            currentVal = Math.max(0, currentVal - 1);
+          } else if (plusBtn) {
+            currentVal += 1;
+          }
+
+          input.value = currentVal;
+
+          // Dynamically adjust color thresholds for fast scanning
+          if (currentVal <= 3) {
+            input.classList.remove('text-secondary', 'text-tertiary-container');
+            input.classList.add('text-error');
+          } else if (currentVal <= 8) {
+            input.classList.remove('text-secondary', 'text-error');
+            input.classList.add('text-tertiary-container');
+          } else {
+            input.classList.remove('text-error', 'text-tertiary-container');
+            input.classList.add('text-secondary');
+          }
+
+          indicateLiveSync(productName, currentVal, 'stock');
+          showToast(`Stock de "${productName}" actualizado a ${currentVal}`, 'sync');
+        }
+
+        if (quickOrderBtn) {
+          const row = quickOrderBtn.closest('tr');
+          const sku = quickOrderBtn.getAttribute('data-sku');
+          const productName = row.querySelector('.truncate')?.textContent || sku;
+          showToast(`"${productName}" agregado al borrador de pedidos`, 'playlist_add');
+        }
+      });
+
+      // Price and direct stock input event listeners (on blur or Enter)
+      tableBody.addEventListener('change', (e) => {
+        if (e.target.classList.contains('price-input')) {
+          const row = e.target.closest('tr');
+          const name = row.querySelector('.truncate')?.textContent || 'Producto';
+          indicateLiveSync(name, e.target.value, 'precio');
+          showToast(`Nuevo precio de "${name}": $${e.target.value}`, 'price_check');
+        } else if (e.target.classList.contains('stock-input')) {
+          const row = e.target.closest('tr');
+          const name = row.querySelector('.truncate')?.textContent || 'Producto';
+          indicateLiveSync(name, e.target.value, 'stock');
+          showToast(`Stock modificado: ${e.target.value} unidades`, 'inventory');
+        }
+      });
+    }
+
+    // Filter Chips Filtering
+    const filterButtons = document.querySelectorAll('.filter-chip');
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => {
+          b.classList.remove('active-filter', 'bg-primary', 'text-on-primary');
+          b.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+        btn.classList.add('active-filter', 'bg-primary', 'text-on-primary');
+        btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+
+        const filter = btn.getAttribute('data-filter');
+        const rows = document.querySelectorAll('#inventoryTableBody tr');
+
+        rows.forEach(row => {
+          const status = row.getAttribute('data-status');
+          if (filter === 'all' || status === filter) {
+            row.style.display = '';
+          } else {
+            row.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Quick Search Filtering
+    const searchInput = document.getElementById('quickSearchInput');
+    const clearBtn = document.getElementById('clearSearchBtn');
+
+    if (searchInput) {
+      searchInput.addEventListener('input', () => {
+        const query = searchInput.value.toLowerCase().trim();
+        if (clearBtn) {
+          if (query.length > 0) clearBtn.classList.remove('hidden');
+          else clearBtn.classList.add('hidden');
+        }
+
+        const rows = document.querySelectorAll('#inventoryTableBody tr');
+        rows.forEach(row => {
+          const text = row.textContent.toLowerCase();
+          if (text.includes(query)) {
+            row.style.display = '';
+          } else {
+            row.style.display = 'none';
+          }
+        });
+      });
+
+      if (clearBtn) {
+        clearBtn.addEventListener('click', () => {
+          searchInput.value = '';
+          clearBtn.classList.add('hidden');
+          const rows = document.querySelectorAll('#inventoryTableBody tr');
+          rows.forEach(r => r.style.display = '');
+          searchInput.focus();
+        });
+      }
+    }
+
+    // Modal behavior for supplier orders
+    const supplierModal = document.getElementById('supplierModal');
+    const openSupplierBtn = document.getElementById('openSupplierModalBtn');
+    const closeSupplierBtn = document.getElementById('closeSupplierModalBtn');
+    const closeModalBottomBtn = document.getElementById('closeModalBottomBtn');
+    const addAllSuggestedBtn = document.getElementById('addAllSuggestedBtn');
+    const singleOrderBtns = document.querySelectorAll('.single-order-btn');
+
+    function openModal() {
+      if (supplierModal) supplierModal.classList.remove('hidden');
+    }
+
+    function closeModal() {
+      if (supplierModal) supplierModal.classList.add('hidden');
+    }
+
+    if (openSupplierBtn) openSupplierBtn.addEventListener('click', openModal);
+    if (closeSupplierBtn) closeSupplierBtn.addEventListener('click', closeModal);
+    if (closeModalBottomBtn) closeModalBottomBtn.addEventListener('click', closeModal);
+
+    if (addAllSuggestedBtn) {
+      addAllSuggestedBtn.addEventListener('click', () => {
+        showToast('Las 3 sugerencias fueron agregadas a los pedidos de Colanta, Postobón y Nestlé', 'done_all');
+        openModal();
+      });
+    }
+
+    singleOrderBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.getAttribute('data-item');
+        const qty = btn.getAttribute('data-qty');
+        const provider = btn.getAttribute('data-provider');
+        showToast(`Agregado: ${qty} uds de ${item} a ${provider}`, 'shopping_cart_checkout');
+        openModal();
+      });
+    });
+
+    // Export CSV Mock
+    const exportBtn = document.getElementById('exportCsvBtn');
+    if (exportBtn) {
+      exportBtn.addEventListener('click', () => {
+        showToast('Exportando planilla de inventario a Excel/CSV...', 'file_download');
+      });
+    }
+
+    // Refresh simulation
+    const refreshBtn = document.getElementById('refreshStockBtn');
+    if (refreshBtn) {
+      refreshBtn.addEventListener('click', () => {
+        showToast('Catálogo sincronizado con la base central.', 'refresh');
+      });
+    }
+
+    // Print order
+    const downloadPdfBtn = document.getElementById('downloadPdfOrderBtn');
+    if (downloadPdfBtn) {
+      downloadPdfBtn.addEventListener('click', () => {
+        window.print();
+      });
+    }
+
+  })();
+</script></main><footer class="w-full bg-surface-container-low mt-auto"><div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl flex flex-col md:flex-row items-center justify-between gap-space-lg text-center md:text-left"><div class="flex flex-col gap-1"><div class="flex items-center justify-center md:justify-start gap-space-sm"><span class="font-title-md text-title-md text-primary font-bold">StockQuick</span><span class="px-space-xs py-0.5 rounded text-[10px] bg-secondary-fixed-dim text-on-secondary-fixed font-bold uppercase tracking-wider">Retail Express</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Herramienta de control ágil de inventario y mostrador para comerciantes de barrio.</p></div><div class="flex items-center flex-wrap justify-center gap-space-lg font-label-md text-label-md text-on-surface-variant"><a class="hover:text-primary transition-colors flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[16px]">support_agent</span>Soporte y WhatsApp</a><a class="hover:text-primary transition-colors flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[16px]">menu_book</span>Guía rápida POS</a><a class="hover:text-primary transition-colors flex items-center gap-1" href="#"><span class="material-symbols-outlined text-[16px]">receipt_long</span>Facturación Local</a></div><div class="font-body-sm text-body-sm text-on-surface-variant">© 2025 StockQuick Inc. Todos los derechos reservados.</div></div></footer></body></html>
